@@ -1,0 +1,93 @@
+ <div *ngFor="let item of navItemss">
+  
+  <div *ngIf="item.children!.length > 0">
+    <button class="dropdown-btn">
+      <i class="{{item.iconName}}"></i>
+      {{item.displayName}}
+      <i class="fa fa-caret-down"></i>
+     
+    </button>
+    <div class="dropdown-container">
+      <div *ngFor="let item2 of item.children">
+        <div *ngIf="item2.children.length > 0">
+            
+          <button class="dropdown-btn">
+              <i class="{{item.iconName}}"></i>
+            {{item2.displayName}}
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <div *ngFor="let item3 of item2.children">
+              <div *ngIf="item3.children!.length > 0">
+                  
+                <button class="dropdown-btn">
+                    <i class="{{item.iconName}}"></i>
+                  {{item3.displayName}}
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                  <div *ngIf="item3.children">
+                    <div *ngFor="let item4 of item3.children">
+                      <div *ngIf="item4.children!.length > 0">
+                       
+                        <button class="dropdown-btn">
+                         <i class="{{item.iconName}}"></i>
+                          {{item4.displayName}}
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-container">
+                        </div>
+                      </div>
+                      <div *ngIf="item4.children!.length == 0 ">
+                        <a href="" routerLink="/{{item4.route}}" routerLinkActive="activeNav">
+                          <i class="{{item4.iconName}}"></i>{{item4.displayName}}</a>
+                      </div>
+                      <!-- <div *ngIf="!item4?.children || item4.children.lenght < 0">
+                          <a href="" routerLink="/{{item4.route}}" routerLinkActive="activeNav">
+                            <i class="{{item4.iconName}}"></i>{{item4.displayName}}</a>
+                        </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div *ngIf="item3.children!.length == 0">
+                <a href="" routerLink="/{{item3.route}}" routerLinkActive="activeNav">
+                  <i class="{{item3.iconName}}"></i>{{item3.displayName}}</a>
+              </div>
+              <!-- <div *ngIf="!item3?.children || item3.children.lenght < 0">
+                  <a href="" routerLink="/{{item3.route}}" routerLinkActive="activeNav">
+                    <i class="{{item3.iconName}}"></i>{{item3.displayName}}</a>
+                </div> -->
+            </div>
+          </div>
+        </div>
+        <div *ngIf="item2.children!.length == 0">
+          <a href="" routerLink="/{{item2.route}}" routerLinkActive="activeNav">
+            <i class="{{item2.iconName}}"></i>{{item2.displayName}}</a>
+        </div>
+        <!-- <div *ngIf="!item2?.children || item2.children.lenght < 0">
+            <a href="" routerLink="/{{item2.route}}" routerLinkActive="activeNav">
+            <i class="{{item2.iconName}}"></i>{{item2.displayName}}</a>
+          </div>      -->
+      </div>
+    </div>
+  </div>
+  <div *ngIf="item.children!.length == 0">
+    <a href="" routerLink="/{{item.route}}" routerLinkActive="activeNav">
+      <i class="{{item.iconName}}"></i>{{item.displayName}}</a>
+  </div>
+  <!-- <div *ngIf="!item?.children || item.children.lenght < 0">
+    <a href="" routerLink="/{{item.route}}" routerLinkActive="activeNav">
+    <i class="{{item.iconName}}"></i>{{item.displayName}}</a>
+  </div>  -->
+</div>
+
+<!-- 
+<div *ngIf="item?.children">
+
+</div>
+<div *ngIf="!item?.children">
+  <a href="" routerLink="/{{item.route}}" routerLinkActive="activeNav">
+    <i class="{{item.iconName}}"></i>{{item.displayName}}</a>
+</div> 
+-->

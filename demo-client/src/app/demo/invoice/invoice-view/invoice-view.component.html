@@ -1,0 +1,93 @@
+<div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title">{{title}}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="bsModalRef.hide()">
+          <span>&times;</span>
+        </button>
+      </div>
+    
+    
+    
+    
+    
+    <div class="modal-body crudForm persoanlInfoArea">
+       
+    
+    <div class="form-group col-md-12 row mx-auto">
+        <div class="col-md-4 text-right">
+          <label> invoiceNumber: </label>
+        </div>
+        <div class="col-md-6">
+          
+          <input
+          class="form-control"
+          placeholder="invoiceNumber"
+          type="text"
+          [(ngModel)]="invoiceMaster.invoiceNumber"
+          name="invoiceNumber"
+          #invoiceNumber="ngModel"
+          required
+        />
+        
+        </div>
+    </div> 
+    <div class="form-group col-md-12 row mx-auto">
+        <div class="col-md-4 text-right">
+          <label> Customer Name: </label>
+        </div>
+        <div class="col-md-6">
+          
+          <input
+          class="form-control"
+          placeholder="customerName"
+          type="text"
+          [(ngModel)]="invoiceMaster.customerName"
+          name="customerName"
+          #customerName="ngModel"
+          required
+        />
+        
+        </div>
+    </div> 
+    
+   
+    <table class="table table-borderless">
+        <thead class="thead-light">
+          <th>SL</th>
+          <th>Product id</th>
+          <th>Product Name</th>
+          <th>Qty</th>
+          <th>Unit Price</th>
+          <th>Total</th>
+        
+          <!-- <th> Grand Total = {{grandTotal}}</th> -->
+        </thead>
+        <tbody>
+          <tr *ngIf="invoiceDetailsList.length==0" [class.text-danger]=" invoiceDetailsList.length==0">
+            <td class="font-italic text-center" colspan="5">
+              No item selected for this order.
+            </td>
+          </tr>
+    
+          <tr *ngFor="let item of invoiceDetailsList;let i=index;">
+            <td>{{i+1}}</td>
+            <td>{{item.productId}}</td>
+            <td>{{item.productName}}</td>
+            <td>{{item.quantity!}}</td>
+            <td>{{item.unitPrice!}}</td>
+
+            <td>{{item.unitPrice!*item.quantity!}}</td>
+           
+        
+          </tr>
+        </tbody>
+    </table>
+    
+    
+    
+    </div>
+    <div class="modal-footer">
+        
+        <button type="button" (click)="bsModalRef.hide()" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>

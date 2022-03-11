@@ -1,0 +1,51 @@
+.addressBolock {
+    margin-right: -15px;
+    background: #b9e7f7;
+    border: solid 1px #6ca3b8;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 3px;
+    padding-right: 2px;
+    position: relative;
+    border-radius: 4px; 
+}
+
+.addressRightContent{
+    text-align: right;
+    padding-right: 5px; top: -3px;
+    position: relative;
+}
+.addressRightContent .form-check-label {
+    color: #037207;
+    font-size: 13px !important;
+    text-shadow: 0px 1px 0px #fff;
+}
+.addressCheck{width: 15px;
+    height: 15px;
+    top: 3px;
+    left: -3px;
+    position: relative;}
+    .checkWidth1{width: 57%; margin-right: 0px; left:5px; text-align: right; display: inline;
+        float: right;}
+    .checkWidth2{    width: 42%;left: 5px;
+        float: right;margin-right: 0px;text-align: right; display: inline;}
+
+        .checkWidth3{width: 29%; margin-right: 0px; left: 10px;
+            float: right;}
+        .checkWidth4{    width: 38%;left: 10px;
+            float: right;margin-right: 0px;}
+            .mrT{top: -2px;
+                position: relative;
+                left: -3px;}
+
+                .paddHolder{padding-left: 16px;margin-right: -25px;left: -8px;
+                    position: relative; }
+                    .paddHolder .checkWidth2 {
+                        
+                        left: -21px;
+                    }
+
+                    .paddHolder .mrT {
+                        top: -3px;
+                    
+                    }

@@ -1,0 +1,37 @@
+<a id="show-sidebar" class="btn btn-sm btn-dark">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar" class="sidebar-wrapper">
+    <div class="sidebar-content">
+      <div class="sidebar-brand"> 
+        <!--
+           Please add class opacity_0 
+           with  nav-link class
+          -->
+        <a class="nav-link" routerLink="/dashboard"><img src="assets/images/erplogo.png" class="dashboardLogo" alt="patient.jpg"></a>
+        <div id="close-sidebar">  <i class="fas fa-bars"></i></div>
+      </div>
+      <div class="sidebar-menu">
+        <div class="sidenav" *ngIf="navItems.length > 0">        
+          <!-- <a *ngFor="let data of navData" href="" routerLink="/{{data.url}}" routerLinkActive="activeNav">{{data.name}}</a>         -->
+          <!-- <app-menu-list-item [navItems]="navItems"></app-menu-list-item>  -->
+         <app-menu-list-item  [navItemss]="navItems"></app-menu-list-item>   
+        </div>
+      </div>
+      <!-- sidebar-menu  -->
+    </div>
+    <!-- sidebar-content  -->
+  </nav>
+
+
+  <!-- <ul class="nav">
+    <div *ngFor="let navitem of navItems">
+      <li *ngIf="isDivider(navitem)" class="nav-divider"></li>
+      <ng-template [ngIf]="isTitle(navitem)">
+        <app-sidebar-nav-title [title]='navitem'></app-sidebar-nav-title>
+      </ng-template>
+      <ng-template [ngIf]="!isDivider(navitem)&&!isTitle(navitem)">
+        <app-sidebar-nav-item [item]='navitem'></app-sidebar-nav-item>
+      </ng-template>
+    </div>
+  </ul> -->

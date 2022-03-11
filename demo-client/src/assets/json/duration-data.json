@@ -1,0 +1,69 @@
+{
+    "success": true,
+    "message": "Duration List Found.",
+    "items": [
+        {
+            "id": 10001,
+            "preDiagnosisVal": "1",
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        },
+        {
+            "id": 10002,
+            "preDiagnosisVal": "2",
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        },
+        {
+            "id": 10003,
+            "preDiagnosisVal": "3",
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        },
+        {
+            "id": 10004,
+            "preDiagnosisVal": "4",
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        },
+        {
+            "id": 10005,
+            "preDiagnosisVal": "5",
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        },
+        {
+            "id": 10006,
+            "preDiagnosisVal": "6",
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        },
+        {
+            "id": 10006,
+            "preDiagnosisVal": "7",
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        },
+        {
+            "id": 10006,
+            "preDiagnosisVal": "8",
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        },
+        {
+            "id": 10007,
+            "preDiagnosisVal": "9",
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        }
+    ]
+}

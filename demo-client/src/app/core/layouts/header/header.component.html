@@ -1,0 +1,161 @@
+<header class="headerTop">
+  <div class="container containerCustom">
+    <div class="row">
+      <div class="col-md-6 col-sm-12 text-right notificationGrid">
+        <div class="notifiactionArea">
+          <ul class="list-group list-inline">
+            <li>
+              <div class="dropdown notificationDropdownHeader">
+                <button class="dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+                  (click)="onLogout()" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-bell"></i>
+                  <span class="badge badge-pill badge-danger notification">0</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <p><i class="fas fa-bell"></i>0 Notifications</p>
+            <li class="dropdown-item">
+              <a href=""><span class="btn btn-circle btn-primary"><i class="fa fa-link"></i></span>
+                Admin
+              </a>
+            </li>
+            <li class="dropdown-item">
+              <a href=""><span class="btn btn-circle btn-primary"><i class="fa fa-link"></i></span>
+                Admin
+              </a>
+            </li>
+            <li class="dropdown-item">
+              <a href=""><span class="btn btn-circle btn-primary"><i class="fa fa-link"></i></span>
+                Admin
+              </a>
+            </li>
+
+            <li class="dropdown-item checkAll">
+              <a href="">
+                Check all notifications
+              </a>
+            </li>
+        </div>
+      </div>
+
+
+
+
+      </li>
+      <li>
+        <div class="dropdown notificationDropdownHeader">
+          <button class="dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <i class="fas fa-envelope"></i>
+            <span class="badge badge-pill badge-success notification">0</span>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <p><i class="fas fa-envelope"></i>0 Messages</p>
+
+      <li class="dropdown-item">
+        <a href=""><span class="btn btn-circle btn-primary"><i class="fa fa-link"></i></span>
+          Admin
+        </a>
+      </li>
+      <li class="dropdown-item checkAll">
+        <a href="">
+          Check all notifications
+        </a>
+      </li>
+    </div>
+  </div>
+
+  </li>
+  </ul>
+  </div>
+
+  </div>
+
+  <div class="col-md-4 col-sm-8 text-left leftPosition paddingNone">
+    <div class="patientAvatarIcon">
+      <!-- <span *ngIf="userDetils.photo"><img src="data:image/jpeg;base64,{{userDetils.photo}}"></span> -->
+      <!-- <span *ngIf="!userDetils.photo"><img src="assets/images/profile-placeholder.jpg"></span> -->
+      <div class="userInfoAll">
+        <h5>aktarul ahsan<h6>(Admin)</h6>
+        </h5>
+        <!-- <p>Admin<label>(Last Login:12-19-2018, 10-12-00AM) </label></p> -->
+
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-2 col-sm-4 text-right settingPosition center">
+   <div style="margin-top: 5%;">
+        <button type="button" class="btn btn-info mr-1 addButtonCustom" (click)="onLogout()">
+        <i class="fas fa-trash-alt mr-1" aria-hidden="true"></i>Logout
+      </button>
+   </div>
+    <!-- <div class="btn-group dropDownMain dropDownModule allmoduleList dropDownPositionModule">
+      <button type="button" class="btn btn-info dropdown-toggle settingHeader" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-th-large"></i>
+      </button>
+     
+      <div class="dropdown-menu">
+        <div class="settingTop">
+          Modules
+        </div>
+
+        <ul class="list-inline moduleuL">
+          <li>IPD</li>
+          <a class="anchorColor" routerLink="/opd-appointment">
+            <li class="opdBg">OPD</li>
+          </a>
+          <a class="anchorColor" routerLink="/pharmacy">
+            <li class="pharmacyBg">Pharmacy</li>
+          </a>
+          <a class="anchorColor" routerLink="/diagnostic">
+            <li class="diagnosticBg">Diagnostic</li>
+          </a>
+        
+        </ul>
+
+      </div>
+
+    </div> -->
+
+    <!-- <div class="btn-group dropDownMain">
+      <button type="button" class="btn btn-info dropdown-toggle settingHeader" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-cog"></i>
+      </button>
+      <div class="dropdown-menu dropDownPosition">
+        <div class="settingTop">
+
+        </div>
+        <div class="dropdown-item">
+          <div class="patientAvatarIcon patientAvatarIcon2">
+            <span *ngIf="userDetils.photo"><img src="data:image/jpeg;base64,{{userDetils.photo}}"></span>
+            <span *ngIf="!userDetils.photo"><img src="assets/images/profile-placeholder.jpg"></span>
+            <div class="userInfoAll">
+              <h5>userDetils.name
+              </h5>
+              <p>userDetils.jobTile</p>
+              <div class="clearfix"></div>
+
+              <button (click)="NewRequs()" type="button" class="btn btn-info userProfilebtn">
+                User Profile
+              </button>
+            
+            </div>
+          </div>
+        </div>
+        <div class="dropdown-divider"></div>
+
+
+
+      </div>
+     
+
+    </div> -->
+
+  </div>
+  </div>
+  </div>
+
+
+</header>

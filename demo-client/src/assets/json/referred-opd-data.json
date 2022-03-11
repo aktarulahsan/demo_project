@@ -1,0 +1,34 @@
+{
+    "success": true,
+    "message": "OPD List Found.",
+    "items": [
+        {
+            "preDiagnosisVal": "N/A",
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "referenceId" : 10001,
+            "activeStatus": 1
+        },
+        {
+            "preDiagnosisVal": "Child Opd",
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "referenceId" : 10002,
+            "activeStatus": 1
+        },
+        {
+            "preDiagnosisVal": "Eye OPD",
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "referenceId" : 10003,
+            "activeStatus": 1
+        },
+        {
+            "preDiagnosisVal": "Skin & VD OPD",
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "referenceId" : 10004,
+            "activeStatus": 1
+        }
+    ]
+}

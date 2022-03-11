@@ -1,0 +1,184 @@
+<div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title">{{title}}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="bsModalRef.hide()">
+          <span>&times;</span>
+        </button>
+      </div>
+    
+    
+    
+    
+    
+    <div class="modal-body crudForm persoanlInfoArea">
+       
+    
+    <div class="form-group col-md-12 row mx-auto">
+        <div class="col-md-4 text-right">
+          <label> invoiceNumber: </label>
+        </div>
+        <div class="col-md-6">
+          
+          <input
+          class="form-control"
+          placeholder="invoiceNumber"
+          type="text"
+          [(ngModel)]="invoiceMaster.invoiceNumber"
+          name="invoiceNumber"
+          #invoiceNumber="ngModel"
+          required
+        />
+        
+        </div>
+    </div> 
+    <div class="form-group col-md-12 row mx-auto">
+        <div class="col-md-4 text-right">
+          <label> Customer Name: </label>
+        </div>
+        <div class="col-md-6">
+          
+          <input
+          class="form-control"
+          placeholder="customerName"
+          type="text"
+          [(ngModel)]="invoiceMaster.customerName"
+          name="customerName"
+          #customerName="ngModel"
+          required
+        />
+        
+        </div>
+    </div> 
+    
+    <form
+    class="form-horizontal form-signin"
+    (ngSubmit)="f.form.valid && onSaveOrUpdate(f)"
+    #f="ngForm"
+    novalidate
+    ngNativeValidate 
+    action="index.html"
+  >
+    <div class="row">
+        <div class="col-sm-4 form-group">
+            <h5 for="id">Product Code</h5>
+            <ng-select 
+            
+                [items]="productList"
+                placeholder="Choose product code"
+                notFoundText="Product code not found"
+                bindLabel="productName"
+                bindValue= "id"
+                [(ngModel)]="product.id" 
+                (change)="selectProduct($event)"
+                name="id"
+                onselect="true"
+                #id="ngModel"
+                [ngClass]="{'invalid-input':f.submitted && id.invalid}" required>
+            </ng-select>
+        </div>
+      
+      
+      
+         
+            <!-- <div class="form-group col-md-2">
+              <h5 for="qty">Quantity</h5>
+              <input
+                type="number"
+                class="form-control"
+                name="qty"
+                [(ngModel)]="model.qty"
+                #qty="ngModel"
+                required
+              />
+              <div *ngIf="f.submitted && qty.invalid">
+                <div *ngIf="qty.errors.required" style="color:red">
+                  Quantity Required
+                </div>
+              </div>
+            </div> -->
+            <div class="form-group col-md-2 ">
+                <h5 for="rate">Quantity</h5>
+                <input
+                type="number"
+                class="form-control"
+                bindValue= "quantity"
+                name="quantity"
+                [(ngModel)]="product.quantity"
+                #rate="ngModel" 
+              />
+               
+              </div>
+            <div class="form-group col-md-2 ">
+              <h5 for="sellingPrice">Unit Price</h5>
+              <input
+              type="number"
+              class="form-control"
+              bindValue= "sellingPrice"
+              name="sellingPrice"
+              [(ngModel)]="product.sellingPrice"
+              #sellingPrice="ngModel"
+            />
+            </div>
+            <div class="form-group col-md-4 ">
+              <h5 for="grandTotal">Grand Total</h5>
+              <input
+                type="text"
+                class="form-control"
+                name="grandTotal"
+                bindValue= "grandTotal"
+                [(ngModel)]="grandTotal"
+                readonly
+              />
+            </div>
+            <div class="form-group">
+        
+                <button type="submit" class="btn btn-dark"><i class="fa fa-plus"></i> Add to List</button>
+               
+              </div>
+          
+              
+      </div>
+    </form>
+    <table class="table table-borderless">
+        <thead class="thead-light">
+          <th>SL</th>
+          <th>Product id</th>
+          <th>Product Name</th>
+          <th>Qty</th>
+          <th>Unit Price</th>
+          <th>Total</th>
+          <th>Action</th>
+          <!-- <th> Grand Total = {{grandTotal}}</th> -->
+        </thead>
+        <tbody>
+          <tr *ngIf="invoiceDetailsList.length==0" [class.text-danger]=" invoiceDetailsList.length==0">
+            <td class="font-italic text-center" colspan="5">
+              No item selected for this order.
+            </td>
+          </tr>
+    
+          <tr *ngFor="let item of invoiceDetailsList;let i=index;">
+            <td>{{i+1}}</td>
+            <td>{{item.productId}}</td>
+            <td>{{item.productName}}</td>
+            <td>{{item.quantity!}}</td>
+            <td>{{item.unitPrice!}}</td>
+
+            <td>{{item.unitPrice!*item.quantity!}}</td>
+           
+            <td>
+              <a class="btn btn-sm btn-info text-white" (click)="editData(item,this)" ><i class="fas fa-edit"></i></a>
+              <a class="btn btn-sm btn-danger text-white ml-1"  (click)='deleteitem(i)' ><i class="fa fa-trash"></i></a>
+            </td>
+          </tr>
+        </tbody>
+    </table>
+    
+    
+    
+    </div>
+    <div class="modal-footer">
+        <button type="submit" class="btn btn-primary"(click)="submitInvoice()" >Save</button>
+        <button type="button" (click)="bsModalRef.hide()" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>

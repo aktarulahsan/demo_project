@@ -1,0 +1,1475 @@
+/* style index ==================================
+### scrool_ber csss
+### radiology result entry
+### Tab Multi Step
+### security/setup/user
+## bussiness ui
+## typeAhead
+## typahead all
+## typeAheadRegistration
+## typahead nurse station service
+## cheeckAll
+================================*/
+.customTableAll  table.dataTable thead th{ padding: 3px 1px !important;}
+.customTableAll table.dataTable tbody td{ padding: 3px 1px !important;}
+.responsiveTable .dataTables_wrapper{ width: 99% !important;} 
+.borderCustomColor{border-color: #609128 !important;}
+:focus {
+	outline: inherit;
+}
+.settingPosition {
+    position: relative;
+    z-index: 99;
+}
+.heighAuto{min-height: auto;}
+/* scrool_ber csss */
+.height_table_90 {
+	height: 90px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.height_table_97 {
+	height: 97px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.height_table_108 {
+	height: 108px;
+	overflow-x: auto;
+}
+
+.height_table_128 {
+	height: 128px;
+	overflow-x: auto;
+}
+
+.height_table_104 {
+	height: 104px;
+	overflow-x: auto;
+}
+
+.height_table_112 {
+	height: 112px;
+	overflow-x: auto;
+}
+
+.height_table_120 {
+	height: 120px;
+	overflow-x: auto;
+}
+
+.height_table_123 {
+	height: 123px;
+	overflow-x: auto;
+}
+
+.height_tableMin_123 {
+	min-height: 23px;
+	max-height: 123px;
+	overflow-x: auto;
+}
+
+.height_tableMin_120 {
+	min-height: 23px;
+	max-height: 120px;
+	overflow-x: auto;
+}
+
+.height_tableMin_104 {
+	min-height: 23px;
+	max-height: 104px;
+	overflow-x: auto;
+}
+
+.height_table_130 {
+	height: 130px;
+	overflow-x: auto;
+}
+
+.height_table_135 {
+	height: 135px;
+	overflow-x: auto;
+}
+
+.height_table_125 {
+	height: 123px;
+	overflow-x: auto;
+}
+
+.height_table_140 {
+	height: 140px;
+	overflow-x: auto;
+}
+
+.height_table_145 {
+	height: 145px;
+	overflow-x: auto;
+}
+
+.height_table_150 {
+	height: 150px;
+	overflow-x: auto;
+}
+.height_table_155 {
+	height: 155px;
+	overflow-x: auto;
+}
+.height_table_145 {
+	height: 144px;
+	overflow-y: auto;
+}
+.height_table_144 {
+	max-height: 144px;
+	overflow-y: auto;
+}
+
+.height_table_162 {
+	height: 162px;
+	overflow-x: auto;
+}
+
+.height_table_160 {
+	height: 160px;
+	overflow-x: auto;
+}
+.height_table_174 {
+	height: 174px;
+	overflow-x: auto;
+}
+.height_table_180 {
+	height: 180px;
+	overflow-x: auto;
+}
+
+.height_table_181 {
+	height: 26vh;
+	overflow-x: auto;
+}
+
+.height_table_190 {
+	height: 190px;
+	overflow-x: auto;
+}
+
+.height_table_202 {
+	height: 202px;
+	overflow-x: auto;
+}
+
+.height_table_200 {
+	height: 200px;
+	overflow-x: auto;
+}
+
+.height_table_204 {
+	height: 204px;
+	overflow-x: auto;
+}
+
+.height_table_210 {
+	height: 210px;
+	overflow-x: auto;
+}
+.height_table_220 {
+	height: 220px;
+	overflow-x: auto;
+}
+.height_table_235 {
+	height: 235px;
+	overflow-x: auto;
+}
+
+.height_table_244 {
+	height: 244px;
+	overflow-x: auto;
+}
+.height_table_245 {
+	height: 245px;
+	overflow-x: auto;
+}
+.height_table_246 {
+	height: 246px;
+	overflow-x: auto;
+}
+.height_table_240 {
+	height: 240px;
+	overflow-x: auto;
+}
+.height_table_252 {
+	height: 252px;
+	overflow-x: auto;
+}
+.height_table_260 {
+	height: 260px;
+	overflow-x: auto;
+}
+.height_table_265 {
+	height: 265px;
+	overflow-x: auto;
+}
+
+.height_table_278 {
+	max-height: 278px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.height_table_276 {
+	height: 276px;
+	overflow-x: auto;
+}
+.height_tableRadio_276{ height: 41.3vh;overflow-x: auto;}
+.height_table_294 {
+	height: 50vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.height_table_291 {
+	height: 291px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.height_table_329 {
+	height: 70vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.height_table_329Display { 
+	height: 57vh;
+	overflow: hidden;
+	
+}
+.height_table_300 {
+	height: 300px;
+	overflow-x: auto;
+}
+.height_table_310 {
+	height: 310px;
+	overflow-x: auto;
+}
+
+.height_table_315 {
+	height: 315px;
+	overflow-x: auto;
+}
+.height_table_319 {
+	height: 319px;
+	overflow-x: auto;
+}
+.height_table_320 {
+	height: 320px;
+	overflow-x: auto;
+}
+
+.height_table_326 {
+	height: 326px;
+	overflow-x: auto;
+}
+
+.height_table_365 {
+	height: 365px;
+	overflow-x: auto;
+}
+
+.height_table_360 {
+	height: 360px;
+	overflow-x: auto;
+}
+.height_table_368 {
+	height: 368px;
+	overflow-x: auto;
+}
+.height_tablea_320 {
+	height: 320px;
+	overflow-x: auto;
+}
+.height_table_324 {
+	height: 324px;
+	overflow-x: auto;
+}
+
+.height_tablea_319 {
+	height: 320px;
+	overflow-x: auto;
+}
+
+.height_table_285 {
+	height: 285px;
+	overflow-x: auto;
+}
+
+.height_table_320 {
+	height: 350px;
+	overflow-x: auto;
+}
+
+.height_table_335 {
+	height: 335px;
+	overflow-x: auto;
+}
+.height_table_338 {
+	height: 338px;
+	overflow-x: auto;
+}
+.height_table_344 {
+	height: 344px;
+	overflow-x: auto;
+}
+.height_table_346 {
+	height: 346px;
+	overflow-x: auto;
+}
+.height_table_350 {
+	height: 350px;
+	overflow-x: auto;
+}
+.height_table_354 {
+	height: 354px;
+	overflow-x: auto;
+}
+
+.height_table_375 {
+	height: 375px;
+	overflow-x: auto;
+}
+
+.height_table_379 {
+	height: 379px;
+	overflow-x: auto;
+}
+
+.height_table_420 {
+	height: 420px;
+	overflow-x: auto;
+
+}
+
+.height_table_415 {
+	height: 415px;
+	overflow-x: auto;
+
+}
+
+.height_table_382 {
+	height: 382px;
+	overflow-x: auto;
+}
+.height_table_384 {
+	height: 384px;
+	overflow-x: auto;
+}
+.height_table_386 {
+	height: 386px;
+	overflow-x: auto;
+}
+
+.height_table_450 {
+	height: 450px;
+	overflow-x: auto;
+}
+
+.height_table_460 {
+	height: 460px;
+	overflow-x: auto;
+}
+
+.height_table_490 {
+	height: 490px;
+	overflow-x: auto;
+}
+.hei_440 {
+	height: 57.3vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.height_table_400 {
+	height: 400px;
+	overflow-x: auto;
+}
+.height_table_448 {
+	height: 450px;
+	overflow-x: auto;
+}
+.height_table_600 {
+	height: 600px;
+	overflow-x: auto;
+}
+.height_table_530 {
+	height: 530px;
+	overflow-x: auto;
+}
+
+.height_table_530 {
+	height: 530px;
+	overflow-x: auto;
+}
+
+.height_table_466 {
+	height: 70.5vh;
+	overflow-x: auto;
+}
+
+.height_table_170 {
+	height: 170px;
+	overflow-x: auto;
+}
+
+.height_table_244 {
+	height: 248px;
+	overflow-x: auto;
+}
+
+.hei_570 {
+	height: 76.5vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.hei_553 {
+	height: 67vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.hei_599 {
+	height: 99.7vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.hei_v62 {
+	height: 62vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.hei_508 {
+	height: 82vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.hei_562 {
+	height: 85.5vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.height_table_380 {
+	height: 66vh;
+	overflow-x: auto;
+}
+.height_table_337 {
+	height: 54vh;
+	overflow-x: auto;
+}
+.scrool_ber::-webkit-scrollbar {
+	width: 6px;
+	height:11px;
+	background: #000; border-radius: 6px;    box-shadow: 0px 0px 7px #9e9b9b inset !important;
+}
+
+.scrool_ber:scrollbar-thumb {
+	background-color: #32a2f7 !important;box-shadow: 0px 0px 6px #2083ce inset !important;
+	width: 6px;
+	border-radius: 0px;
+	height: 11px !important;border-radius: 6px;
+}
+
+.scrool_ber::-webkit-scrollbar-thumb {
+	background-color: #32a2f7 !important;box-shadow: 0px 0px 6px #2083ce inset !important;
+	border-radius: 0px;
+	width: 6px;
+	height: 11px;border-radius: 6px;
+}
+
+.scrool_ber th {
+	top: -1px;
+	position: sticky;
+	position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+	z-index: 9;
+}
+
+tr.sticky_td td {
+	top: 23px;
+	position: webkit-sticky;
+	padding-left: 0px !important;
+}
+
+.stickytr td {
+	top: 22px;
+	position: sticky;
+	background: #fff;
+}
+
+.stickytr input {
+	background: #fffce6;
+}
+
+.min_height {
+	height: auto !important;
+}
+.stickyNone th{position: initial;}
+/* ngx bootstrap accordion */
+.accordionCustom .card-header {
+	padding: 0px !important;
+	border: solid 1px #b9c6ab;
+	border-radius: 0px !important;
+}
+
+.accordionCustom .panel-title {
+	background: #e8f3dc;
+	color: #FFF;
+}
+
+.accordionCustom .panel-title .btn-link {
+	color: #030303;
+	text-decoration: none;
+}
+
+.accordionCustom .panel-title .btn {
+	padding: 0px 32px;z-index: 9;
+    position: relative;
+}
+
+.accordionCustom accordion-group {
+	position: relative;
+}
+
+.accordionCustom accordion-group:before {
+	content: "+";
+	padding-right: 0px;
+	background: #919f81;
+	width: 27px;
+	height: 25px;
+	font-size: 25px !important;
+	text-align: center;
+	top: 2px;
+	border-right: solid 1px #79846c;
+	color: #fdfdfd;
+	position: absolute;
+	font-size: 10px;
+	line-height: 21px;
+	font-weight: normal;
+	left: 2px;
+	z-index:1;
+}
+
+.accordionCustom .panel-open:before {
+	content: "-";
+}
+.accordionCustomQue accordion{
+	width: 77%;
+    margin: auto;
+}
+.accordionCustomQue accordion-group:before {
+	content: url(../images/searchA.svg);
+	
+}
+
+.accordionCustomQue .panel-open:before {
+	content: url(../images/searchA.svg);
+}
+.accordionCustomVitals .card {
+    border: 1px solid rgb(158, 189, 122);
+
+}
+.accordionCustom .table-bordered {
+    border: 1px solid #dee2e6 !important;
+}
+.accordionCustomQue .table-bordered {
+	/* border: 1px solid #070779  !important; */
+	border: transparent !important;
+}
+.h5SubModule{
+	color: #09756b;
+    padding-left: 9px;
+    font-family: Verdana !important;
+    font-size: 17px;
+    margin-bottom:5px;
+	border: solid 1px #dedede;
+    padding: 4px;
+    border-left: solid 2px #09756b;
+}
+.subModuleArea{border: solid 1px #dedede;
+    width: 98%;
+    margin: 8px auto;}
+.subSpan{   margin-left: 2%;
+    width: 29%;
+    /* float: left; */
+    left: 25px;}
+.subSpan .form-check-label{left:0px;}
+
+.subSpan input{
+	height: 16px;
+    width: 16px;
+    /* display: block; */
+    /* float: left; */
+    position: absolute !important;
+    left: -20px;
+    top: 4px;
+}
+.accordionCustomQue .panel-title {
+	background: url(../images/title.png) repeat;
+	color: #FFF;height: 37px;border-radius: 24px !important;
+	margin-bottom: 10px;
+}
+.accordionCustomQue .card-header{border:0px;}
+.accordionCustomQue accordion-group:before {
+	background: #1d5388;
+    height: 35px;
+    border-right: solid 1px #194571;
+    width: 90px;
+    line-height: 35px;border-radius: 24px 0px 0 24px !important;
+}
+.accordionCustomQue .card {
+	border-radius: 18px;
+    background: #ffffff;
+    border: 0px;
+    margin-top: 8px;
+}
+.accordionCustomQue .panel-title .btn {
+    padding: 6px 65px;    font-family: Verdana;
+    font-size: 16px !important;
+    color: #1d5388;
+}
+.btnAcc {
+	padding: 4px 16px;
+	width: 130px;
+	margin-right: 8px;
+	background: #e8f3dc;
+	top: 7px;
+	position: relative;
+	color: #000;
+	border: 2px solid #b9c6ab;
+	border-radius: 4px 4px 0 0;
+	border-bottom: 2px solid #e8f3dc;
+	z-index: 99;
+}
+
+.btnAcc:hover {
+	color: #000;
+	background: #e8f3dc;
+	border: 2px solid #b9c6ab;
+	border-bottom: 2px solid #e8f3dc;
+}
+
+.btnAcc.btn-info:not(:disabled ):not(.disabled ):active {
+	color: #fff;
+	background-color: #e8f3dc;
+	border-color: #b9c6ab;
+	border-bottom: 2px solid #e8f3dc;
+}
+
+
+/* security/setup/user */
+#user_grant_department .panel-title {
+	background: #bae886;
+}
+
+/* radiology result entry */
+.resultEntryTab .nav-tabs li a {
+	padding: 6px 10px !important;
+}
+
+.invoiceDetails2 .form-control {
+	border: 1px solid #51a7b6 !important;
+}
+
+.pendingPrintedReport .nav-tabs li a {
+	padding: 6px 5px !important;
+}
+/*end  radiology result entry */
+.investigation_areaHomeCmh {
+	background: linear-gradient(to bottom, #ffffff 4%, #f4fafb 41%, #dbeeef 100%)
+		!important;
+}
+
+/* prescription hone for CMH */
+.continueMedicineArea {
+	width: auto;
+	float: left;
+	margin-left: 31%;
+	position: absolute;
+	z-index: 99;
+	top: 12px;
+}
+
+.continueMedicineArea p {
+	width: 478px;
+    height: 26px;
+    overflow-x: auto;
+    background: #c5ddaa;
+    padding-left: 8px;
+}
+
+.tableWidth {
+	width: 100%;
+	float: right;
+	/* margin-left: -4px; */
+}
+
+table.searchAll {
+	margin-top: 7px;
+}
+
+.searchAll p {
+	margin-bottom: 2px;
+}
+
+.chiefBlock .searchAll label {
+	float: left;
+}
+
+.chiefBlock .searchAll p {
+	float: left;
+	margin-left: 6px;
+	width: 78%;
+}
+
+.chiefBlock .tableWidth {
+	width: 78.5%;
+	float: right;
+}
+
+.chiefBlock3 .searchAll p {
+	width: 69%;
+}
+
+.ProvisonalDiagnosis p {
+	width: 91%;
+}
+
+.diseaseFev .feveArea .dropdown-menu.show {
+	right: 0px;
+}
+
+.adviceBlock .tableWidth {
+	width: 78%;
+	float: left;
+	margin-left: 10.5%;
+}
+
+.page-wrapper .chiefBlock3 .tableWidth {
+	width: 69%;
+	float: left;
+	margin-left: 18.8%;
+}
+
+.page-wrapper.toggled .chiefBlock3 .tableWidth {
+	margin-left: 21.8%;
+}
+
+.allprescriptionBlock-Row th {
+	position: static;
+}
+
+.typeAhead typeahead-container.dropdown.open.dropdown-menu {
+	width: 82%;
+}
+
+.chiefBlock .typeAhead typeahead-container.dropdown.open.dropdown-menu {
+	width: 72%;
+}
+
+.pastIllness .typeAhead typeahead-container.dropdown.open.dropdown-menu
+	{
+	width: 90%;
+}
+
+.investigationFinding .typeAhead typeahead-container.dropdown.open.dropdown-menu
+	{
+	width: 95%;
+}
+
+.chiefBlock3 .typeAhead typeahead-container.dropdown.open.dropdown-menu
+	{
+	width: 65%;
+}
+
+.ProvisonalDiagnosis .typeAhead typeahead-container.dropdown.open.dropdown-menu
+	{
+	width: 95%;
+}
+
+.searchAll th {
+	font-size: 13px !important;
+	background: transparent !important;
+}
+
+.searchAll input {
+	border-radius: 4px;
+}
+
+.allprescriptionBlock-Row {
+	margin-bottom: 4px;
+	width: 100%;
+	float: left;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.homeThreeDctor .allprescriptionBlock-Row {
+	margin-bottom: 10px;
+}
+
+.medicationTitle .labelMedi {
+	font-size: 13.4px;
+	font-weight: bold;
+}
+
+.add_title {
+	float: inherit !important;
+	width: 100% !important;
+	margin-left: 0px !important;
+}
+
+.check_input1 {
+	width: 19px !important;
+	margin: auto;
+	display: table;
+}
+
+input.check2 {
+	width: 19px !important;
+	height: 19px !important;
+	left: 5px;
+	position: relative;
+}
+
+.medicationTitle th {
+	font-size: 13px;
+}
+
+tr.sticky2 th {
+	top: 23px !important;
+	position: sticky;
+}
+tr.sticky3 th {
+	top: 41px !important;
+	position: sticky;
+}
+.medicationTitle table {
+	background: #fff;
+}
+
+.footerAreaHome {
+	width: 98%;
+	float: left;
+	border: 1px solid #75b6bb;
+	margin: 4px auto;
+	border-radius: 4px;
+	padding: 5px;
+	background: #d9eced;
+	padding-left: 0px;
+	margin-left: 1%;
+}
+
+.footerAreaHome3 {
+	margin-top: 4%
+}
+
+.HomePannel_left2 {
+	height: 50vh !important;
+}
+
+.footerAreaHome button {
+	width: 110px !important;
+	line-height: 12px !important;
+	border-radius: 0px;
+	height: 30px !important;
+	font-size: 16px !important;
+	border-radius: 4px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.allprescriptionBlock th {
+	color: #000 !important;
+}
+
+.medicingTh th {
+	background: #e1f2f5;
+	color: #017080;
+	font-size: 14px;
+}
+
+.medicingTh td {
+	font-size: 15px;
+}
+/* end prescription hone for CMH */
+
+/* ng select custom border style */
+.radiologyExamList .ng-select .ng-select-container {
+	border: 1px solid #51a7b6 !important;
+}
+
+.radiologyExamList .ng-select .ng-select-container .ng-value-container .ng-placeholder
+	{
+	color: #40464a;
+	font-weight: bold;
+}
+
+.radiologyExamList .ng-select.ng-select-single .ng-select-container {
+	height: 30px;
+}
+
+.radiologyExamList .ng-select .ng-select-container {
+	min-height: 30px;
+}
+
+/* bootstap custom */
+.textareaCustom {
+	height: 100px !important;
+}
+
+.emergencyH5 {
+	width: 100%;
+	line-height: 33px;
+}
+.emergencySearchbtn {
+    float: right;
+    padding: 2px 11px;
+    border: solid 1px #fff;
+    box-shadow: 0px 1px 4px #2d3a6b;
+    top: 2pz;
+    top: 3px;
+    position: relative;
+    margin-right: 1%;
+}
+/* multistep form progess bar */
+/*progressbar*/
+/* #progressbar {
+	margin-bottom: 0px;
+	width: 56%;
+	overflow: hidden;
+	counter-reset: step;
+	position: relative;
+	top: 6px;
+	z-index: 9;
+	text-align: center;
+	float: right;
+}
+
+#progressbar li {
+	list-style-type: none;
+	color: #666;
+	text-transform: uppercase;
+	font-size: 9px;
+	width: 9%;
+	float: left;
+	position: relative;
+	letter-spacing: 1px;
+}
+
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 24px;
+	height: 24px;
+	line-height: 22px;
+	display: block;
+	font-size: 12px;
+	color: #637de3;
+	background: #3b4a82;
+	border-radius: 25px;
+	margin: 0 auto 10px auto;
+	border: solid 1px #596bad;
+}
+
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #3b4a82;
+	position: absolute;
+	left: -50%;
+	top: 11px;
+	z-index: -1;
+}
+
+#progressbar li:first-child:after {
+	content: none;
+} */
+
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before, #progressbar li.active:after {
+	background: #677cc8;
+	color: white;
+	border: solid 1px #8ea7ff;
+}
+
+.pastIllness3 .typeAhead {
+	width: 90%;
+}
+
+/* typahead all css */
+.typeAhead .ng-select .ng-select-container {
+	min-height: 28px;
+}
+
+.typeAhead .ng-select.ng-select-single .ng-select-container {
+	height: 28px;
+}
+
+.typeAhead .ng-select .ng-select-container {
+	border: solid 1px #68bee0;
+}
+
+.typeAhead .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-value
+	{
+	line-height: 23px;
+	padding-top: 2px;
+}
+
+.typeAhead .ng-select .ng-select-container .ng-value-container .ng-placeholder
+	{
+	font-size: 15px;
+}
+.typeAheadphy .ng-select.ng-select-single .ng-select-container {
+    font-size: 14px;
+}
+.typeAheadphy .ng-select .ng-select-container {
+    border-left: 0px;
+    border-radius: 0px 4px 4px 0;
+}
+.typeAheadphy .ng-select{
+	width: 58%;
+}
+.typeAheadphy .input-group-text {
+     border-left: 1px solid #a8d7ea; 
+}
+.typeAheadphy .input-group-prepend {
+    height: 28px;
+}
+ .typeAheadphy .ng-select span {
+    font-size: 14px;
+}
+/* typahead registration css */
+.typeAheadRegistration .ng-select .ng-select-container {
+	min-height: 24px;
+}
+
+.typeAheadRegistration .ng-select.ng-select-single .ng-select-container {
+	top: -2px;
+    min-height: 24px;height: 24px;
+}
+
+.typeAheadRegistration .ng-select .ng-select-container {
+	border: 0px;
+}
+
+.typeAheadRegistration .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-value
+	{
+	line-height: 23px;
+	padding-top: 9px;
+}
+
+.typeAheadRegistration .ng-select .ng-select-container .ng-value-container .ng-placeholder{
+	font-size: 15px;
+}
+.typeAheadRegistration .ng-select .ng-clear-wrapper{ top:6px;}
+.typeAheadRegistration .ng-select .ng-arrow-wrapper{ top:2px;}
+.typeAheadRegistration .ng-select .ng-select-container .ng-value-container .ng-placeholder {
+	line-height: 32px;
+    height: 30px;
+}
+/* typahead nurse station service all css */
+.typeAheadNurser .ng-select .ng-select-container {
+	min-height: 30px;
+}
+
+.typeAheadNurser .ng-select.ng-select-single .ng-select-container {
+	height: 30px;
+}
+
+.typeAheadNurser .ng-select .ng-select-container {
+	border: solid 1px #68bee0;     border-radius: 0px 30px 30px 0px;
+}
+
+.typeAheadNurser .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-value
+	{
+	line-height: 25px;
+	padding-top: 4px;
+}
+
+.typeAheadNurser .ng-select .ng-select-container .ng-value-container .ng-placeholder
+	{
+	font-size: 15px;
+}
+.typeAheadNurser .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-input{
+	top: 2px;
+}
+.bedViewer .ng-select{width:80%;}
+/* .regPatientlist .ng-dropdown-panel .ng-dropdown-panel-items {
+    width: 140px;
+    left: -83px;
+} */
+.regPatientlist .ng-dropdown-panel{
+width:auto;left: -88px;
+}
+/* end typeAheadNurser */
+
+
+.tableConsul2 .form-control {
+	height: 30px !important;
+}
+
+.tableConsul2 td {
+	font-size: 14px;
+}
+
+.addUserDepartment .ng-select.ng-select-single .ng-select-container {
+   border-radius: 25px;
+}
+.addUserDepartment .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-value {
+    font-size: 15px;
+}
+/* emergency type ahead css */
+.quickDiv3 typeahead-container.dropdown.open.dropdown-menu {
+	width:auto !important;
+	max-width:auto !important;
+}
+
+.quickDiv3 typeahead-container.dropdown.open.dropdown-menu h4 {
+	font-size: 20px;
+}
+.quickdisposalSelect .ng-select {
+	width: 40%;font-size: 15px;
+}
+.quickdisposalSelectUdu .ng-select {
+	width: 58%;
+}
+.quickdisposalSelectObs .ng-select {
+	width:72%;
+}
+.qickDisposalRtu  .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-value {
+    width: 112px;
+}
+.quickdisposalSelect .ng-dropdown-panel.ng-select-bottom{font-size: 15px;}
+.quickdisposalSelect .ng-select .ng-select-container {
+    border: 1px solid #6bb5d2;
+    min-height: 30px;height: 30px !important;
+    border-radius: 0px 20px 20px 0px;
+}
+
+/* ckeditor for radiology result entry */
+
+.middlePart .tox-tinymce{ height: 87.2vh !important;}
+
+/* quick registration style */
+.quickReistration .tab-content {
+	border-radius: 6px;     
+}
+.quickReistration ul.nav.nav-tabs {
+	border: 0px !important;
+    border-bottom: 1px solid #609128 !important;
+    border-radius: 6px 6px 0 0;
+
+}
+.quickReistration .dotedicon{top:8px !important;}
+.quickReistration .nav-tabs{display: none;}
+.displayBlockRe{display: block !important;}
+.qickRegA{width: 168px;}
+
+app-cham-patient-list{margin-top: -26px;}
+/*========== registration-modal ==========*/
+app-registration-modal {
+   margin-top: -26px;
+}
+app-business-list{  margin-top: -26px;}
+app-patient-list-doc-staion{ margin-top: -26px;}
+app-registration-modal .form-control{ height: 27px !important;}
+ .titleGlobalregis {
+	background: #609128 !important;
+}
+textarea.globalRtexarea{height: 120px !important;}
+/* ======================imgCapRadiology======================= */
+.imgCapRadiology table td{white-space: nowrap;}
+/*========== app-dmfr-modal ==========*/
+app-dmfr-modal {
+	margin-top: -26px;
+}
+
+/* Tab Multi Step */
+.tabMultiStep .tab-content {
+    border: 0px;
+    margin-top: 10px;
+}
+.tabMultiStep .nav-tabs{border-bottom: 0px !important;    position: relative;
+    width: 574px;
+    margin: auto; padding-left: 2%;
+   }
+  .tabMultiStep .nav{
+	min-height: 27px;
+  }
+.tabMultiStep .nav-tabs .nav-link {
+	width: 32px;
+    height: 32px;
+    border-radius: 40px;
+    background: #d1e7b9;
+    font-size: 17px !important;
+    text-align: center;
+    line-height: 32px;
+    padding: 0px;
+    position: relative;
+    border: dashed 1px #76aa39;
+}
+.tabMultiStep .nav-tabs .nav-item {
+	width: 60px;
+    position: relative;
+    z-index: 9;
+}
+ .tabMultiStep .nav-tabs .nav-link.active {
+	border: dashed 1px #eaefe4 !important;
+	background: #76aa39 !important;
+}
+ .tabMultiStep .nav-tabs .nav-link.active {
+    color: #fff !important;
+}
+.tabMultiStep ul.nav.nav-tabs:after {
+    content: '';
+    display: block;
+    width: 71%;
+    border: aliceblue;
+    position: absolute;
+    top: 16px; border: dashed .7px  #76aa39;
+}
+.tabMultiStep-assessment ul.nav.nav-tabs:after {
+    width: 84% !important;
+}
+.footerMultistep{
+	border: solid 1px #76aa39;
+    background: #fff;
+    padding: 4px;
+    border-radius: 6px; width: 99%; margin: auto;
+}
+/* emergency tab */
+
+.tabMultiStep .nav-tabs .nav-link {
+    width: 28px;
+    height: 28px;
+    border-radius: 40px;
+    background: #d1e7b9;
+    font-size: 17px !important;
+    text-align: center;
+    line-height: 28px;
+    padding: 0px;
+    position: relative;
+    border: dashed 1px #76aa39;
+}
+.emergencyTab{position: relative;}
+.emergencyTab .tab-content {
+ border: solid 1px #dedede;
+ margin-top: 0px;
+}
+.emergencyTab .nav-tabs {
+    width: 600px;
+    position: absolute;
+    top: 21px;
+    z-index: 99;
+    left: 28%;
+}
+ .emergencyTab .nav-tabs .nav-link.active {
+    border: dashed 1px #adbdf9 !important;
+    background: #677cc8 !important;
+    border-radius:40px !important;
+}
+.emergencyTab .nav-tabs .nav-link {
+   
+    background: #2c3a6f;
+    font-size: 14px !important;
+    line-height: 26px;
+    border: dashed 1px #5566a7;
+    color: #637de0 !important;
+}
+.emergencyTab ul.nav.nav-tabs:after {
+    border: dashed .7px #4884bf;
+}
+.emergencyTab .nav-tabs .nav-item {
+    width: 50px;
+}
+.allTabSet .btn {
+	padding: 7px 7px;
+    font-size: 15px !important;
+    /* border-right: solid 1px #007bff !important; */
+    /* border-color: #065cb9 !important; */
+    font-family: roboto;
+    /* box-shadow: 0px 0px 1px #3997fb; */
+    margin-right: 4px;
+  
+}
+
+.allTabSet .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: #0054af;
+  
+}
+  .allTabSet{
+	margin: 3px auto;
+    display: table;
+  }
+  .emergencyTab .all_content_wrapper{ min-height: auto; padding-bottom: 1px !important;}
+  .flexColumNone{ flex-direction: inherit;width: auto;
+	float: right;}
+	.flexColumNone button {
+		margin-right: 2px;
+		padding: 3px 18px;
+	}
+
+	/* nurse station css time and date */
+	.bs-timepicker-field {
+		width: 40px !important;
+		padding: 0px;border: solid 1px #7cbad2;
+	}
+	.startIntake button.btn.btn-default.text-center {
+		left: -16px;
+		position: relative;
+	}
+	.tableLeftIntake table {
+		left: 10px;
+		position: relative;
+	}
+
+/*----quick review and disposal----*/
+.reportingTime table td {
+	padding: 0px !important;
+	padding: 0px !important;
+	border: 0px;
+	margin-bottom: 0px !important;
+}
+
+.reportingTime table td .btn {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+.reportingTime table {
+	width: 155px !important;
+	margin: auto;
+	left: 15px;
+	position: relative;
+}
+
+/* ==============================cheeckAll============================== */
+
+/* .cheeck box squaredThree */
+.cheeckAll {
+	position: relative;
+	float: left;
+}
+
+.cheeckAll label {
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #ffffff;
+	/* border-radius: 4px; */
+	border: solid 1px #000;
+}
+
+.cheeckAll label:after {
+	content: '';
+	width: 10px;
+	height: 6px;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	border: 3px solid #141512;
+	border-top: none;
+	border-right: none;
+	background: transparent;
+	opacity: 0;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.cheeckAll label:hover::after {
+	opacity: 0.3;
+}
+
+.cheeckAll input[type=checkbox] {
+	visibility: hidden;
+}
+
+.cheeckAll input[type=checkbox]:checked+label:after {
+	opacity: 1;
+}
+/* end .squaredThree */
+.label-text {
+	position: relative;
+	left: 10px;
+	white-space: nowrap;
+}
+
+.spanCheckText {
+	position: relative;
+	left: 18px;
+	white-space: nowrap;
+}
+
+/* 2 */
+.allCheck {
+	position: relative;
+	float: left;
+}
+
+.allCheck label {
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #ff8080;
+	/* border-radius: 4px; */
+	border: solid 1px #000;
+}
+
+.allCheck label:after {
+	content: '';
+	width: 10px;
+	height: 6px;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	border: 3px solid #fff;
+	border-top: none;
+	border-right: none;
+	background: transparent;
+	opacity: 0;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.allCheck label:hover::after {
+	opacity: 0.3;
+}
+
+.warningCheck input[type=checkbox] {
+	visibility: hidden;
+}
+
+.allCheck input[type=checkbox]:checked+label:after {
+	opacity: 1;
+}
+
+.spanCheckText2 {
+	white-space: nowrap;
+	position: relative;
+	left: 6px;
+}
+
+/* bussiness ui css */
+.tabMinHeight .tab-content{min-height: 59vh;}
+.tabMinHeight2 .tab-content{min-height:71vh;}
+/*end bussiness ui css */
+
+
+/*start doctor station accordian css */
+.arrow-accordian .panel-heading {
+    padding: 0px !important;
+}
+/*end doctor station accordian css */

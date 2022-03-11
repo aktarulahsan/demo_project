@@ -1,0 +1,34 @@
+{
+    "success": true,
+    "message": "Dosage Uom List Found.",
+    "items": [
+        {
+            "id": 10001,
+            "preDiagnosisVal": "Day",
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        },
+        {
+            "id": 10002,
+            "preDiagnosisVal": "Week",
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        },
+        {
+            "id": 10003,
+            "preDiagnosisVal": "Month",
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        },
+        {
+            "id": 10004,
+            "preDiagnosisVal": "Year",
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        }
+    ]
+}

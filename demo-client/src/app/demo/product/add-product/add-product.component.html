@@ -1,0 +1,87 @@
+<div class="modal-content">
+<div class="modal-header">
+    <h5 class="modal-title">{{title}</h5>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="bsModalRef.hide()">
+      <span>&times;</span>
+    </button>
+  </div>
+
+
+
+
+
+<div class="modal-body crudForm persoanlInfoArea">
+    <form
+    class="form-horizontal form-signin"
+    (ngSubmit)="f.form.valid && onSaveOrUpdate(f)"
+    #f="ngForm"
+    novalidate
+    ngNativeValidate 
+    action="index.html"
+  >
+
+<div class="form-group col-md-12 row mx-auto">
+    <div class="col-md-4 text-right">
+      <label> Product Name: </label>
+    </div>
+    <div class="col-md-6">
+      
+      <input
+      class="form-control"
+      placeholder="product Name"
+      type="text"
+      [(ngModel)]="product.productName"
+      name="productName"
+      #productName="ngModel"
+      required
+    />
+    
+    </div>
+</div> 
+<div class="form-group col-md-12 row mx-auto">
+    <div class="col-md-4 text-right">
+      <label> Product Code: </label>
+    </div>
+    <div class="col-md-6">
+      
+      <input
+      class="form-control"
+      placeholder="product Code"
+      type="text"
+      [(ngModel)]="product.productCode"
+      name="productCode"
+      #productCode="ngModel"
+      required
+    />
+    
+    </div>
+</div> 
+<div class="form-group col-md-12 row mx-auto">
+    <div class="col-md-4 text-right">
+      <label> Selling Price: </label>
+    </div>
+    <div class="col-md-6">
+      
+      <input
+      class="form-control"
+      placeholder="Selling Price"
+      type="text"
+      [(ngModel)]="product.sellingPrice"
+      name="sellingPrice"
+      #sellingPrice="ngModel"
+      required
+    />
+    
+    </div>
+</div> 
+    
+
+<div class="modal-footer">
+    <button type="submit" class="btn btn-primary" >Save</button>
+    <button type="button" (click)="bsModalRef.hide()" class="btn btn-danger" data-dismiss="modal">Close</button>
+    </div>
+</form>
+
+</div>
+
+</div>

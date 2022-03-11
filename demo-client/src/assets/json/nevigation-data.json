@@ -1,0 +1,634 @@
+{
+    "success": true,
+    "message": "Menu List Found.",
+    "items": [
+        {
+            "displayName": "Diagnostic",
+            "route": "diagnostic/dashboard",
+            "iconName": "fas fa-user-md",
+            "children": [
+                {
+                    "displayName": "Configuration",
+                    "route": "diagnostic/diagnostic-config/dashboard",
+                    "iconName": "far fa-circle subIcon2",
+                    "children": [
+                        {
+                            "displayName": "Doctor Setup",
+                            "route": "diagnostic/diagnostic-config/doctor-setup",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Referral Doctor Merge",
+                            "route": "diagnostic/diagnostic-config/refferal-doctor-merge",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Working Share Policy",
+                            "route": "diagnostic/diagnostic-config/working-share-policy-setup",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Referral Doctor Commission",
+                            "route": "diagnostic/diagnostic-config/refferal-commission",
+                            "iconName": "far fa-circle subIcon2",
+                            "children": [
+                                {
+                                    "displayName": "Referral Commission",
+                                    "route": "diagnostic/diagnostic-config/refferral-commission",
+                                    "iconName": "far fa-circle subIcon"
+                                },
+                                {
+                                    "displayName": "Examwise Refferral Head",
+                                    "route": "diagnostic/diagnostic-config/examwise-refferral-head",
+                                    "iconName": "far fa-circle subIcon"
+                                }
+                            ]
+                        },
+                        {
+                            "displayName": "Exam Attribute Setup",
+                            "route": "diagnostic/diagnostic-config/exam-attr-ref-value-analyzer-setup",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Microbilogy Value Setup",
+                            "route": "diagnostic/diagnostic-config/micro-biology-value-setup",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Exam Setup",
+                            "route": "diagnostic/diagnostic-config/exam-setup",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Marketing officer Setup",
+                            "route": "diagnostic/diagnostic-config/marketing-officer",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Discount Policy Setup",
+                            "route": "diagnostic/diagnostic-config/discount-policy",
+                            "iconName": "far fa-circle subIcon"
+                        }
+                    ]
+                },
+                {
+                    "displayName": "Diagnostic Service",
+                    "route": "diagnostic/diagnostic-service/dashboard",
+                    "iconName": "far fa-circle subIcon2",
+                    "children": [
+                        {
+                            "displayName": "Report Delivery",
+                            "route": "diagnostic/diagnostic-service/report-delivery",
+                            "iconName": "far fa-circle subIcon"
+                        }
+                    ]
+                },
+                {
+                    "displayName": "Billing",
+                    "route": "diagnostic/billing/dashboard",
+                    "iconName": "far fa-circle subIcon2",
+                    "children": [
+                        {
+                            "displayName": "CMH OPD Billing",
+                            "route": "diagnostic/billing/cmh-opd-billing",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Order Entry",
+                            "route": "diagnostic/billing/order-entry",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Order Entry2",
+                            "route": "diagnostic/billing/order-entry-new",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Order Entry3",
+                            "route": "diagnostic/billing/order-entry-new2",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Order Update",
+                            "route": "diagnostic/billing/order-update",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Order Cancel",
+                            "route": "diagnostic/billing/order-cancel",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Post Order Exam Cancel ",
+                            "route": "diagnostic/billing/post-order-exam-cancel",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Due Collectin",
+                            "route": "diagnostic/billing/due-collection",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Refund",
+                            "route": "diagnostic/billing/refund",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Post Order Discount",
+                            "route": "diagnostic/billing/post-order-discount",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Post Order Exam Add",
+                            "route": "diagnostic/billing/post-order-exam-add",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Post Order Referral Change",
+                            "route": "diagnostic/billing/post-order-referral-change",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Money Receipt",
+                            "route": "diagnostic/billing/money-receipt",
+                            "iconName": "far fa-circle subIcon"
+                        }
+                    ]
+                },
+                {
+                    "displayName": "Pathology",
+                    "route": "diagnostic/pathology/dashboard",
+                    "iconName": "far fa-circle subIcon2",
+                    "children": [
+                        {
+                            "displayName": "Sample Collection",
+                            "route": "diagnostic/pathology/sample-collection",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Sample Receive at LAB",
+                            "route": "diagnostic/pathology/sample-receive-at-lab",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Result Entry",
+                            "route": "diagnostic/pathology/result-entry",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Step Reverse",
+                            "route": "diagnostic/pathology/step-reverse",
+                            "iconName": "far fa-circle subIcon"
+                        }
+                    ]
+                },
+                {
+                    "displayName": "Radiology",
+                    "route": "diagnostic/pathology/dashboard",
+                    "iconName": "far fa-circle subIcon2",
+                    "children": [
+                        {
+                            "displayName": "Radiology Appointment",
+                            "route": "diagnostic/radiology/radiology-appointment",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Image Capture",
+                            "route": "diagnostic/radiology/image-capture",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Image QC",
+                            "route": "diagnostic/radiology/image-qc",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Result Entry",
+                            "route": "diagnostic/radiology/result-entry",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Report Process",
+                            "route": "diagnostic/radiology/report-process",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Film Consumption",
+                            "route": "diagnostic/radiology/film-consumption",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Step Reverse",
+                            "route": "diagnostic/radiology/step-reverse",
+                            "iconName": "far fa-circle subIcon"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "displayName": "Hospital Service",
+            "route": "ipd",
+            "iconName": "fas fa-hospital",
+            "children": [
+                {
+                    "displayName": "Out Patient Department",
+                    "route": "opd-appointment",
+                    "iconName": "far fa-circle subIcon",
+                    "children": [
+                        {
+                            "displayName": "Opd Configuration",
+                            "route": "opd-appointment",
+                            "iconName": "far fa-circle subIcon",
+                            "children": [
+                                {
+                                    "displayName": "Doctor Schedule",
+                                    "route": "opd-appointment/schedule-setup",
+                                    "iconName": "far fa-circle subIcon"
+                                },
+                                {
+                                    "displayName": "Personal Prefix Setup",
+                                    "route": "opd/personal-prefix",
+                                    "iconName": "far fa-circle subIcon"
+                                },
+                                {
+                                    "displayName": "Rank Setup",
+                                    "route": "opd/ranks",
+                                    "iconName": "far fa-circle subIcon"
+                                },
+                                {
+                                    "displayName": "Person Category Setup",
+                                    "route": "opd/person-categories",
+                                    "iconName": "far fa-circle subIcon"
+                                },
+                                {
+                                    "displayName": "Service Category Setup",
+                                    "route": "opd/service-categories",
+                                    "iconName": "far fa-circle subIcon"
+                                },
+                                {
+                                    "displayName": "Unit Setup",
+                                    "route": "opd/units",
+                                    "iconName": "far fa-circle subIcon"
+                                },
+                                {
+                                    "displayName": "Corps Setup",
+                                    "route": "opd/corps-setup",
+                                    "iconName": "far fa-circle subIcon"
+                                },
+                                {
+                                    "displayName": "Eligibility Status Setup",
+                                    "route": "opd/eligibility-status-setup",
+                                    "iconName": "far fa-circle subIcon"
+                                },
+                                {
+                                    "displayName": "Room Setup",
+                                    "route": "opd/room-setup",
+                                    "iconName": "far fa-circle subIcon"
+                                },
+                                {
+                                    "displayName": "Infrastructure Setup",
+                                    "route": "opd/infrastructure-setup",
+                                    "iconName": "far fa-circle subIcon"
+                                }
+                            ]
+                        },
+                        {
+                            "displayName": "Opd Service",
+                            "route": "opd-appointment",
+                            "iconName": "far fa-circle subIcon2",
+                            "children": [
+                                {
+                                    "displayName": "Opd Appointment",
+                                    "route": "opd-appointment/dashboard",
+                                    "iconName": "far fa-circle subIcon"
+                                },
+                                {
+                                    "displayName": "Registration",
+                                    "route": "opd/registration",
+                                    "iconName": "far fa-circle subIcon"
+                                },
+                                {
+                                    "displayName": "Patient List",
+                                    "route": "opd/register-patient-list",
+                                    "iconName": "far fa-circle subIcon"
+                                },
+                                {
+                                    "displayName": "Receptions Rooms",
+                                    "route": "opd/receptions-rooms",
+                                    "iconName": "far fa-circle subIcon"
+                                },
+                                {
+                                    "displayName": "Doctors Rooms",
+                                    "route": "opd/doctors-rooms",
+                                    "iconName": "far fa-circle subIcon"
+                                },
+                                {
+                                    "displayName": "OPD Queues",
+                                    "route": "opd/opd-queues",
+                                    "iconName": "far fa-circle subIcon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "displayName": "Emergency",
+                    "route": "emergency/dashboard",
+                    "iconName": "far fa-circle subIcon"
+                },
+                {
+                    "displayName": "Doctor's Module", "route": "emergency/dashboard", "iconName": "far fa-circle subIcon"
+                },
+                {
+                    "displayName": "Operation Theatre",
+                    "route": "operation-theatre/dashboard",
+                    "iconName": "far fa-circle subIcon"
+                },
+                {
+                    "displayName": "Blood Bank",
+                    "route": "blood-bank/dashboard",
+                    "iconName": "far fa-circle subIcon"
+                }
+            ]
+        },
+        {
+            "displayName": "Pharmacy",
+            "route": "pharmacy/pharmacy-config",
+            "iconName": "fa fa-prescription-bottle-alt",
+            "children": [
+                {
+                    "displayName": "Configuration",
+                    "route": "pharmacy/pharmacy-config/dashboard",
+                    "iconName": "far fa-circle subIcon2",
+                    "children": [
+                        {
+                            "displayName": "Pharmacy Setup",
+                            "route": "pharmacy/pharmacy-config/pharmacy-setup",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Store Setup",
+                            "route": "pharmacy/pharmacy-config/store-setup",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Medicine Setup",
+                            "route": "pharmacy/pharmacy-config/medicine-setup",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Dose Setup",
+                            "route": "pharmacy/pharmacy-config/dose-setup",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Generic Setup",
+                            "route": "pharmacy/pharmacy-config/generic-setup",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Manufacturer Setup",
+                            "route": "pharmacy/pharmacy-config/manufacturer-setup",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Medicine Barcode Setup",
+                            "route": "pharmacy/pharmacy-config/medicine-barcode-setup",
+                            "iconName": "far fa-circle subIcon"
+                        }
+                    ]
+                },
+                {
+                    "displayName": "Pharmacy Billing",
+                    "route": "pharmacy/pharmacy-billing/dashboard",
+                    "iconName": "far fa-circle subIcon2",
+                    "children": [
+                        {
+                            "displayName": "Pharmacy Payment Bill",
+                            "route": "pharmacy/pharmacy-billing/pharmacy-payment-bill",
+                            "iconName": "far fa-circle subIcon"
+                        }
+                    ]
+                },
+                {
+                    "displayName": "Pharmacy Purchase",
+                    "route": "pharmacy/pharmacy-purchase/dashboard",
+                    "iconName": "far fa-circle subIcon2",
+                    "children": [
+                        {
+                            "displayName": "Purchase Requisition",
+                            "route": "pharmacy/pharmacy-purchase/purchase-requisition",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Purchase Order Generate",
+                            "route": "pharmacy/pharmacy-purchase/purchase-order",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Purchase Order Approval",
+                            "route": "pharmacy/pharmacy-purchase/purchase-approval",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Purchase Receive GRN",
+                            "route": "pharmacy/pharmacy-purchase/purchase-receive-grn",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Purchase Without PO Receive",
+                            "route": "pharmacy/pharmacy-purchase/purchase-without-po-receive",
+                            "iconName": "far fa-circle subIcon"
+                        }
+                    ]
+                },
+                {
+                    "displayName": "Medical Store",
+                    "route": "pharmacy/medical-store/dashboard",
+                    "iconName": "far fa-circle subIcon2",
+                    "children": [
+                        {
+                            "displayName": "Reception",
+                            "route": "pharmacy/medical-store/reception",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Authorization",
+                            "route": "pharmacy/medical-store/authorization",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Pharmacy Store",
+                            "route": "pharmacy/medical-store/pharmacy-store",
+                            "iconName": "far fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Local Purchase",
+                            "route": "pharmacy/medical-store/local-purchase",
+                            "iconName": "far fa-circle subIcon"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "displayName": "Prescription",
+            "route": "prescription",
+            "iconName": "fas fa-user-md",
+            "children": [
+                {
+                    "displayName": "Prescription",
+                    "route": "opd/prescription/home",
+                    "iconName": "far fa-circle subIcon2"
+                },
+                {
+                    "displayName": "Setup",
+                    "route": "",
+                    "iconName": "far fa-circle subIcon2",
+                    "children": [
+                        {
+                            "displayName": "User Preference",
+                            "route": "opd/prescription/user-preference",
+                            "iconName": "fas fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Doctor Wise Prescription",
+                            "route": "opd/prescription/doctor-wise-prescription",
+                            "iconName": "fas fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "On Examination",
+                            "route": "opd/prescription/on-examination",
+                            "iconName": "fas fa-circle subIcon"
+                        },
+                        {
+                            "displayName": " Physical Exam Group",
+                            "route": "opd/prescription/physical-exam-group",
+                            "iconName": "fas fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Physical Examination",
+                            "route": "opd/prescription/physical-examination",
+                            "iconName": "fas fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "History Group",
+                            "route": "opd/prescription/history-group",
+                            "iconName": "fas fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "History",
+                            "route": "opd/prescription/history",
+                            "iconName": "fas fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Clinical History",
+                            "route": "opd/prescription/clinical-history",
+                            "iconName": "fas fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Chief Complain",
+                            "route": "opd/prescription/chief-complain-setup",
+                            "iconName": "fas fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Illness History",
+                            "route": "opd/prescription/illness-history",
+                            "iconName": "fas fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Auto Complete Setup",
+                            "route": "opd/prescription/auto-complete-setup",
+                            "iconName": "fas fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Diagnosis Setup",
+                            "route": "opd/prescription/diagnosis-setup",
+                            "iconName": "fas fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Visit Note",
+                            "route": "opd/prescription/visit-note",
+                            "iconName": "fas fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Advice Setup",
+                            "route": "opd/prescription/advice-setup",
+                            "iconName": "fas fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Finalization",
+                            "route": "opd/prescription/finalization",
+                            "iconName": "fas fa-circle subIcon"
+                        },
+                        {
+                            "displayName": "Short Key",
+                            "route": "opd/prescription/short-key",
+                            "iconName": "fas fa-circle subIcon"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "displayName": "Security",
+            "route": "/",
+            "iconName": "fas fa-lock",
+            "children": [
+                {
+                    "displayName": "User Profile",
+                    "route": "security/user-profile",
+                    "iconName": ""
+                },
+                {
+                    "displayName": "Setup",
+                    "route": "security/setup",
+                    "iconName": "far fa-circle subIcon2",
+                    "children": [
+                        {
+                            "displayName": "Organization Setup",
+                            "route": "security/setup/organization",
+                            "iconName": ""
+                        },
+                        {
+                            "displayName": "Company Setup",
+                            "route": "security/setup/company",
+                            "iconName": ""
+                        },
+                        {
+                            "displayName": "Department Setup",
+                            "route": "security/setup/department",
+                            "iconName": ""
+                        },
+                        {
+                            "displayName": "Module Setup",
+                            "route": "security/setup/module",
+                            "iconName": ""
+                        },
+                        {
+                            "displayName": "Feature Setup",
+                            "route": "security/setup/feature",
+                            "iconName": ""
+                        },
+                        {
+                            "displayName": "Employee Setup",
+                            "route": "security/setup/employee",
+                            "iconName": ""
+                        },
+                        {
+                            "displayName": "Role Setup",
+                            "route": "security/setup/role",
+                            "iconName": ""
+                        },
+                        {
+                            "displayName": "User Setup",
+                            "route": "security/setup/user",
+                            "iconName": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

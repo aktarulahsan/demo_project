@@ -1,0 +1,78 @@
+{
+    "success": true,
+    "message": "Medicine Dosage List Found.",
+    "items": [
+        {
+            "id": 10001,
+            "preDiagnosisVal": "1+0+0",
+            "preDiagnosisValType" : 25,
+            "departmentNo": 1112,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        },
+        {
+            "id": 10001,
+            "preDiagnosisVal": "1+1+0",
+            "preDiagnosisValType" : 25,
+            "departmentNo": 1112,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        },
+        {
+            "id": 10002,
+            "preDiagnosisVal": "1+1+1",
+            "preDiagnosisValType" : 25,
+            "departmentNo": 1112,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        },
+        {
+            "id": 10003,
+            "preDiagnosisVal": "1+1+0",
+            "preDiagnosisValType" : 25,
+            "departmentNo": 1112,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        },
+        {
+            "id": 10004,
+            "preDiagnosisVal": "0+1+1",
+            "preDiagnosisValType" : 25,
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        },
+        {
+            "id": 10005,
+            "preDiagnosisVal": "0+0+1",
+            "preDiagnosisValType" : 25,
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        },
+        {
+            "id": 10006,
+            "preDiagnosisVal": "0+1+0",
+            "preDiagnosisValType" : 25,
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        },
+        {
+            "id": 10007,
+            "preDiagnosisVal": "1+0+1",
+            "preDiagnosisValType" : 25,
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        },
+        {
+            "id": 10008,
+            "preDiagnosisVal": " Times",
+            "preDiagnosisValType" : 25,
+            "departmentNo": 2001,
+            "doctorNo": 4000045,
+            "activeStatus": 1
+        }
+    ]
+}

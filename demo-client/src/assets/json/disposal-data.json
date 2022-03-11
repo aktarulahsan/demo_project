@@ -1,0 +1,83 @@
+    {
+        "success": true,
+        "message": "Disposal List Found.",
+        "items": [
+            {
+                "id": 10001,
+                "preDiagnosisVal": "N/A",
+                "departmentNo": 2001,
+                "doctorNo": 4000045,
+                "activeStatus": 1
+            },
+            {
+                "id": 10002,
+                "preDiagnosisVal": "M & D",
+                "departmentNo": 2001,
+                "doctorNo": 4000045,
+                "activeStatus": 1
+            },
+            {
+                "id": 10003,
+                "preDiagnosisVal": "Attend A",
+                "departmentNo": 2001,
+                "doctorNo": 4000045,
+                "activeStatus": 1
+            },
+            {
+                "id": 10004,
+                "preDiagnosisVal": "Attend B",
+                "departmentNo": 2001,
+                "doctorNo": 4000045,
+                "activeStatus": 1
+            },
+            {
+                "id": 10005,
+                "preDiagnosisVal": "Attend C",
+                "departmentNo": 2001,
+                "doctorNo": 4000045,
+                "activeStatus": 1
+            },
+            {
+                "id": 10006,
+                "preDiagnosisVal": "Hospitalized",
+                "departmentNo": 2001,
+                "doctorNo": 4000045,
+                "activeStatus": 1
+            },
+            {
+                "id": 10007,
+                "preDiagnosisVal": "SIQ",
+                "departmentNo": 2001,
+                "doctorNo": 4000045,
+                "activeStatus": 1
+            },
+            {
+                "id": 10008,
+                "preDiagnosisVal": "Exe Duty",
+                "departmentNo": 2001,
+                "doctorNo": 4000045,
+                "activeStatus": 1
+            },
+            {
+                "id": 100010,
+                "preDiagnosisVal": "Exe Boot/Shoe",
+                "departmentNo": 2001,
+                "doctorNo": 4000045,
+                "activeStatus": 1
+            },
+            {
+                "id": 10010,
+                "preDiagnosisVal": "Exe Uniform",
+                "departmentNo": 2001,
+                "doctorNo": 4000045,
+                "activeStatus": 1
+            },
+            {
+                "id": 10011,
+                "preDiagnosisVal": "Follow Up",
+                "departmentNo": 2001,
+                "doctorNo": 4000045,
+                "activeStatus": 1
+            }
+        ]
+    }

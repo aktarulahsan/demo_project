@@ -1,0 +1,2694 @@
+{
+   "success":true,
+   "info":false,
+   "warning":false,
+   "message":null,
+   "valid":false,
+   "id":null,
+   "model":null,
+   "items":[
+      {
+         "id":1541,
+         "prentId":null,
+         "displayName":"Emergency & Casualty",
+         "featureDtosList":null
+      },
+      {
+         "id":1542,
+         "prentId":1541,
+         "displayName":"Emergency - Quick Disposal",
+         "featureDtosList":[
+            {
+               "featureId":1022932,
+               "featureName":"Quick Disposal",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+	{
+         "id":1022932,
+         "prentId":1542,
+         "displayName":"Quick Disposal",
+         "isGranted":false,
+         "updatedStatus":false
+
+	},
+	{
+         "id":1022933,
+         "prentId":1542,
+         "displayName":"Quick Disposal2",
+         "isGranted":false,
+         "updatedStatus":false
+
+	},
+      {
+         "id":1073,
+         "prentId":null,
+         "displayName":"Fixed Asset",
+         "featureDtosList":null
+      },
+      {
+         "id":1074,
+         "prentId":1073,
+         "displayName":"Fixed Asset Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1075,
+         "prentId":1073,
+         "displayName":"Fixed Asset Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1097,
+         "prentId":1073,
+         "displayName":"Fixed Asset Purchase",
+         "featureDtosList":null
+      },
+      {
+         "id":1085,
+         "prentId":null,
+         "displayName":"Agro",
+         "featureDtosList":null
+      },
+      {
+         "id":1087,
+         "prentId":1085,
+         "displayName":"AGR Billing",
+         "featureDtosList":null
+      },
+      {
+         "id":1086,
+         "prentId":1085,
+         "displayName":"AGR Configuraton",
+         "featureDtosList":null
+      },
+      {
+         "id":1088,
+         "prentId":1085,
+         "displayName":"AGR Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1095,
+         "prentId":1085,
+         "displayName":"AGR Purchase",
+         "featureDtosList":null
+      },
+      {
+         "id":1099,
+         "prentId":null,
+         "displayName":"Diagnostic Services Web",
+         "featureDtosList":null
+      },
+      {
+         "id":1101,
+         "prentId":1099,
+         "displayName":"Diagnostic Services Oracle",
+         "featureDtosList":[
+            {
+               "featureId":1022907,
+               "featureName":"Relation List 2",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1102,
+         "prentId":1099,
+         "displayName":"Diagnostic Billing ",
+         "featureDtosList":[
+            {
+               "featureId":1022904,
+               "featureName":"RelationList 3",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1100,
+         "prentId":1099,
+         "displayName":"Configuration Web",
+         "featureDtosList":null
+      },
+      {
+         "id":1107,
+         "prentId":1100,
+         "displayName":"Referral Doctor Commission",
+         "featureDtosList":[
+            {
+               "featureId":1022909,
+               "featureName":"Referral Commission",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022910,
+               "featureName":"Examwise Refferral Head",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1108,
+         "prentId":null,
+         "displayName":"Hospital Services Web",
+         "featureDtosList":null
+      },
+      {
+         "id":1109,
+         "prentId":1108,
+         "displayName":"Out Patient Department",
+         "featureDtosList":null
+      },
+      {
+         "id":1113,
+         "prentId":1109,
+         "displayName":"Billing Web",
+         "featureDtosList":null
+      },
+      {
+         "id":1114,
+         "prentId":1109,
+         "displayName":"Pathology Web",
+         "featureDtosList":null
+      },
+      {
+         "id":1110,
+         "prentId":1109,
+         "displayName":"Opd Configuration ",
+         "featureDtosList":null
+      },
+      {
+         "id":1111,
+         "prentId":1109,
+         "displayName":"Opd Service",
+         "featureDtosList":null
+      },
+      {
+         "id":1112,
+         "prentId":null,
+         "displayName":"Prescription Module",
+         "featureDtosList":null
+      },
+      {
+         "id":1116,
+         "prentId":1112,
+         "displayName":"Prescription",
+         "featureDtosList":[
+            {
+               "featureId":1022914,
+               "featureName":"Prescription",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1117,
+         "prentId":1112,
+         "displayName":"Setup",
+         "featureDtosList":[
+            {
+               "featureId":1022903,
+               "featureName":"Template List",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022905,
+               "featureName":"Disease Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022915,
+               "featureName":"Doctor Wise Prescription",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022916,
+               "featureName":"On Examination",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022917,
+               "featureName":"Physical Exam Group",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022918,
+               "featureName":"Physical Examination",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022919,
+               "featureName":"Clinical History",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022920,
+               "featureName":"Auto Complete Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022921,
+               "featureName":"Visit Note",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022922,
+               "featureName":"Short Key",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022927,
+               "featureName":"Advice Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022928,
+               "featureName":"Finalization",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022948,
+               "featureName":"Chief Complain",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022931,
+               "featureName":"Add Template",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022945,
+               "featureName":"User Preference",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022947,
+               "featureName":"History Group",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022956,
+               "featureName":"History",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022957,
+               "featureName":"Illness History",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022961,
+               "featureName":"Diagnosis Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1190000001547,
+         "prentId":null,
+         "displayName":"Test Module",
+         "featureDtosList":null
+      },
+      {
+         "id":1001,
+         "prentId":null,
+         "displayName":"Diagnostic System",
+         "featureDtosList":null
+      },
+      {
+         "id":1011,
+         "prentId":1001,
+         "displayName":"Configuration",
+         "featureDtosList":[
+            {
+               "featureId":1022980,
+               "featureName":"Discount Policy Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022981,
+               "featureName":"Doctor Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022982,
+               "featureName":"Referral Doctor Commision Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022985,
+               "featureName":"Working Share Policy Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022986,
+               "featureName":"Referral Doctor Marge",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022997,
+               "featureName":"Marketing Officer",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1023006,
+               "featureName":"Micro-Biology Value Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022963,
+               "featureName":"Exam Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022964,
+               "featureName":"Exam, Attribute, Reference Value, Analyzer, etc.",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1012,
+         "prentId":1001,
+         "displayName":"Billing",
+         "featureDtosList":[
+            {
+               "featureId":1022983,
+               "featureName":"Order Entry",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022984,
+               "featureName":"Order Update",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022988,
+               "featureName":"Refund Only",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1023000,
+               "featureName":"Order Entry (CMH)",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1023010,
+               "featureName":"Due Collection Only",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022926,
+               "featureName":"Order Entry2",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022951,
+               "featureName":"Order Entry3",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022946,
+               "featureName":"Post Order Referral Change",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022965,
+               "featureName":"Order Cancel",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022966,
+               "featureName":"Post Order Exam Add",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022967,
+               "featureName":"Post Order Exam Cancel",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022975,
+               "featureName":"Money Receipt",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022977,
+               "featureName":"Post Order Discount",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1014,
+         "prentId":1001,
+         "displayName":"Pathology",
+         "featureDtosList":[
+            {
+               "featureId":1022987,
+               "featureName":"Sample Receive at LAB",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022992,
+               "featureName":"Sample Collection",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022993,
+               "featureName":"Step Cancellation",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1023001,
+               "featureName":"Laboratory Result Entry",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1015,
+         "prentId":1001,
+         "displayName":"Radiology & Imaging",
+         "featureDtosList":[
+            {
+               "featureId":1022994,
+               "featureName":"Image Capture",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022995,
+               "featureName":"Non Lab Result Entry",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022996,
+               "featureName":"Non-Lab Step Cancellation",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022952,
+               "featureName":"Radiology Appointment",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022933,
+               "featureName":"Image QC",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022934,
+               "featureName":"Film Consumption",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022962,
+               "featureName":"Non Lab Result Entry (Monowara)",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022969,
+               "featureName":"Non Lab Result Entry (New)",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1013,
+         "prentId":1001,
+         "displayName":"Diagnostic Services",
+         "featureDtosList":[
+            {
+               "featureId":1022991,
+               "featureName":"Report Delivery",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022999,
+               "featureName":"Imaging Report Process",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1002,
+         "prentId":null,
+         "displayName":"Hospital Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1022,
+         "prentId":1002,
+         "displayName":"HS Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1021,
+         "prentId":1002,
+         "displayName":"Out Patient Department",
+         "featureDtosList":null
+      },
+      {
+         "id":1049,
+         "prentId":1021,
+         "displayName":"OPD Configuration",
+         "featureDtosList":[
+            {
+               "featureId":1022911,
+               "featureName":"Person Category Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022912,
+               "featureName":"Personal Prefix Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022913,
+               "featureName":"Rank Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022935,
+               "featureName":"Service Category Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022936,
+               "featureName":"Unit Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022937,
+               "featureName":"Corps Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022938,
+               "featureName":"Eligibility Status Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022939,
+               "featureName":"Room Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022940,
+               "featureName":"Infrastructure Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022971,
+               "featureName":"OPD Configuaration",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022976,
+               "featureName":"Doctor Schedule ",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1048,
+         "prentId":1021,
+         "displayName":"OPD Services",
+         "featureDtosList":[
+            {
+               "featureId":1022979,
+               "featureName":"Registration",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022941,
+               "featureName":"Patient List",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022942,
+               "featureName":"Receptions Rooms",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022943,
+               "featureName":"Doctors Rooms",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022953,
+               "featureName":"OPD Queues",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022960,
+               "featureName":"OPD Queues",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022972,
+               "featureName":"OPD Appointment",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1098,
+         "prentId":1021,
+         "displayName":"OPD Consultation",
+         "featureDtosList":null
+      },
+      {
+         "id":1016,
+         "prentId":1002,
+         "displayName":"In Patient Department",
+         "featureDtosList":null
+      },
+      {
+         "id":1050,
+         "prentId":1016,
+         "displayName":"IPD Billing",
+         "featureDtosList":null
+      },
+      {
+         "id":1052,
+         "prentId":1016,
+         "displayName":"IPD Services",
+         "featureDtosList":[
+            {
+               "featureId":1022989,
+               "featureName":"Nurse Station",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022990,
+               "featureName":"OT Note",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1023011,
+               "featureName":"Discharge Certificate",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1051,
+         "prentId":1016,
+         "displayName":"IPD Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1019,
+         "prentId":1002,
+         "displayName":"Doctor's Module",
+         "featureDtosList":null
+      },
+      {
+         "id":1056,
+         "prentId":1019,
+         "displayName":"EMR Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1055,
+         "prentId":1019,
+         "displayName":"EMR Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1017,
+         "prentId":1002,
+         "displayName":"Operation Theatre",
+         "featureDtosList":null
+      },
+      {
+         "id":1057,
+         "prentId":1017,
+         "displayName":"OT Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1058,
+         "prentId":1017,
+         "displayName":"OT Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1020,
+         "prentId":1002,
+         "displayName":"Emergency",
+         "featureDtosList":null
+      },
+      {
+         "id":1054,
+         "prentId":1020,
+         "displayName":"Emergency Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1053,
+         "prentId":1020,
+         "displayName":"Emergency Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1018,
+         "prentId":1002,
+         "displayName":"Blood Bank",
+         "featureDtosList":null
+      },
+      {
+         "id":1059,
+         "prentId":1018,
+         "displayName":"BB Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1060,
+         "prentId":1018,
+         "displayName":"BB Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1003,
+         "prentId":null,
+         "displayName":"HR & Payroll",
+         "featureDtosList":null
+      },
+      {
+         "id":1023,
+         "prentId":1003,
+         "displayName":"Schedule & Rostering",
+         "featureDtosList":null
+      },
+      {
+         "id":1024,
+         "prentId":1003,
+         "displayName":"Personnel Directory",
+         "featureDtosList":null
+      },
+      {
+         "id":1096,
+         "prentId":1003,
+         "displayName":"HR Configaration",
+         "featureDtosList":null
+      },
+      {
+         "id":1004,
+         "prentId":null,
+         "displayName":"Pharmacy",
+         "featureDtosList":null
+      },
+      {
+         "id":1115,
+         "prentId":1004,
+         "displayName":"Medical Store",
+         "featureDtosList":[
+            {
+               "featureId":1022944,
+               "featureName":"Pharmacy Store",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022949,
+               "featureName":"Reception",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022950,
+               "featureName":"Authorization",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022955,
+               "featureName":"Local Purchase",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1076,
+         "prentId":1004,
+         "displayName":"Pharmacy & General Store",
+         "featureDtosList":null
+      },
+      {
+         "id":1027,
+         "prentId":1004,
+         "displayName":"Pharmacy Billing",
+         "featureDtosList":[
+            {
+               "featureId":1022925,
+               "featureName":"Pharmacy Payment Bill",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1025,
+         "prentId":1004,
+         "displayName":"Pharmacy Purchase",
+         "featureDtosList":[
+            {
+               "featureId":1023003,
+               "featureName":"Goods Receive Note(G.R.N)",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1023004,
+               "featureName":"Goods Receive Note(G.R.N)Without PO",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1023005,
+               "featureName":"Purchase Order Approved ",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1023007,
+               "featureName":"Purchase Requsition",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1023008,
+               "featureName":"Purchase Order Generate",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1026,
+         "prentId":1004,
+         "displayName":"Pharmacy Configuration",
+         "featureDtosList":[
+            {
+               "featureId":1023002,
+               "featureName":"Store Setup(S)",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1023009,
+               "featureName":"Manufacturer/Suplier Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022954,
+               "featureName":"Dose Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022968,
+               "featureName":"Medicine Setup (Price)",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022973,
+               "featureName":"Pharmacy Setup(S)",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022974,
+               "featureName":"Generic Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022978,
+               "featureName":"Medicine Code Barcode Print",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1028,
+         "prentId":1004,
+         "displayName":"Pharmacy Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1005,
+         "prentId":null,
+         "displayName":"Material Management",
+         "featureDtosList":null
+      },
+      {
+         "id":1030,
+         "prentId":1005,
+         "displayName":"Material Purchase",
+         "featureDtosList":null
+      },
+      {
+         "id":1031,
+         "prentId":1005,
+         "displayName":"Material Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1032,
+         "prentId":1005,
+         "displayName":"Material Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1006,
+         "prentId":null,
+         "displayName":"Cafeteria",
+         "featureDtosList":null
+      },
+      {
+         "id":1034,
+         "prentId":1006,
+         "displayName":"DK Billing",
+         "featureDtosList":null
+      },
+      {
+         "id":1033,
+         "prentId":1006,
+         "displayName":"DK Configuraton",
+         "featureDtosList":null
+      },
+      {
+         "id":1093,
+         "prentId":1006,
+         "displayName":"DK Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1094,
+         "prentId":1006,
+         "displayName":"DK Purchase",
+         "featureDtosList":null
+      },
+      {
+         "id":1007,
+         "prentId":null,
+         "displayName":"Accounts",
+         "featureDtosList":null
+      },
+      {
+         "id":1035,
+         "prentId":1007,
+         "displayName":"AC Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1036,
+         "prentId":1007,
+         "displayName":"AC Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1008,
+         "prentId":null,
+         "displayName":"MIS",
+         "featureDtosList":null
+      },
+      {
+         "id":1081,
+         "prentId":1008,
+         "displayName":"WEB Report",
+         "featureDtosList":null
+      },
+      {
+         "id":1037,
+         "prentId":1008,
+         "displayName":"Audit Log",
+         "featureDtosList":null
+      },
+      {
+         "id":1039,
+         "prentId":1008,
+         "displayName":"Revenue Report",
+         "featureDtosList":null
+      },
+      {
+         "id":1038,
+         "prentId":1008,
+         "displayName":"Transaction Report",
+         "featureDtosList":null
+      },
+      {
+         "id":1009,
+         "prentId":null,
+         "displayName":"Other Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1045,
+         "prentId":1009,
+         "displayName":"Digital Document Archive",
+         "featureDtosList":null
+      },
+      {
+         "id":1068,
+         "prentId":1045,
+         "displayName":"Document Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1067,
+         "prentId":1045,
+         "displayName":"Document Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1044,
+         "prentId":1009,
+         "displayName":"Corporate Client",
+         "featureDtosList":null
+      },
+      {
+         "id":1063,
+         "prentId":1044,
+         "displayName":"AAB Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":699,
+         "prentId":1063,
+         "displayName":"AAA Test",
+         "featureDtosList":null
+      },
+      {
+         "id":1064,
+         "prentId":1044,
+         "displayName":"CC Services",
+         "featureDtosList":null
+      },
+      {
+         "id":701,
+         "prentId":1064,
+         "displayName":"ACC Confi",
+         "featureDtosList":null
+      },
+      {
+         "id":1043,
+         "prentId":1009,
+         "displayName":"Health Checkup",
+         "featureDtosList":null
+      },
+      {
+         "id":1062,
+         "prentId":1043,
+         "displayName":"Health Checkup Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1061,
+         "prentId":1043,
+         "displayName":"Health Checkup Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1042,
+         "prentId":1009,
+         "displayName":"Vaccination",
+         "featureDtosList":null
+      },
+      {
+         "id":1066,
+         "prentId":1042,
+         "displayName":"Vaccination Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1065,
+         "prentId":1042,
+         "displayName":"Vaccination Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1078,
+         "prentId":1009,
+         "displayName":"Share Holder Accounts",
+         "featureDtosList":null
+      },
+      {
+         "id":1079,
+         "prentId":1078,
+         "displayName":"Share Holder Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1080,
+         "prentId":1078,
+         "displayName":"Share Holder Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1040,
+         "prentId":1009,
+         "displayName":"Daycare Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1071,
+         "prentId":1040,
+         "displayName":"Daycare Configaration",
+         "featureDtosList":null
+      },
+      {
+         "id":1072,
+         "prentId":1040,
+         "displayName":"Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1041,
+         "prentId":1009,
+         "displayName":"Package",
+         "featureDtosList":null
+      },
+      {
+         "id":1070,
+         "prentId":1041,
+         "displayName":"Package Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1069,
+         "prentId":1041,
+         "displayName":"Package Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1090,
+         "prentId":1009,
+         "displayName":"Ambulane Service",
+         "featureDtosList":null
+      },
+      {
+         "id":1091,
+         "prentId":1090,
+         "displayName":"Ambulane Service Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1092,
+         "prentId":1090,
+         "displayName":"Ambulane Bill Service",
+         "featureDtosList":null
+      },
+      {
+         "id":1010,
+         "prentId":null,
+         "displayName":"Settings & Security",
+         "featureDtosList":null
+      },
+      {
+         "id":1046,
+         "prentId":1010,
+         "displayName":"Security",
+         "featureDtosList":[
+            {
+               "featureId":1022998,
+               "featureName":"User List(S)",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022923,
+               "featureName":"Department Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022924,
+               "featureName":"Employee Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022929,
+               "featureName":"Module Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022930,
+               "featureName":"Feature Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022958,
+               "featureName":"Organization Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022959,
+               "featureName":"Company Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022970,
+               "featureName":"User Roles(S)",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1047,
+         "prentId":1010,
+         "displayName":"Settings",
+         "featureDtosList":null
+      },
+      {
+         "id":1541,
+         "prentId":null,
+         "displayName":"Emergency & Casualty",
+         "featureDtosList":null
+      },
+      {
+         "id":1542,
+         "prentId":1541,
+         "displayName":"Emergency - Quick Disposal",
+         "featureDtosList":[
+            {
+               "featureId":1022932,
+               "featureName":"Quick Disposal",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1073,
+         "prentId":null,
+         "displayName":"Fixed Asset",
+         "featureDtosList":null
+      },
+      {
+         "id":1074,
+         "prentId":1073,
+         "displayName":"Fixed Asset Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1075,
+         "prentId":1073,
+         "displayName":"Fixed Asset Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1097,
+         "prentId":1073,
+         "displayName":"Fixed Asset Purchase",
+         "featureDtosList":null
+      },
+      {
+         "id":1085,
+         "prentId":null,
+         "displayName":"Agro",
+         "featureDtosList":null
+      },
+      {
+         "id":1087,
+         "prentId":1085,
+         "displayName":"AGR Billing",
+         "featureDtosList":null
+      },
+      {
+         "id":1086,
+         "prentId":1085,
+         "displayName":"AGR Configuraton",
+         "featureDtosList":null
+      },
+      {
+         "id":1088,
+         "prentId":1085,
+         "displayName":"AGR Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1095,
+         "prentId":1085,
+         "displayName":"AGR Purchase",
+         "featureDtosList":null
+      },
+      {
+         "id":1099,
+         "prentId":null,
+         "displayName":"Diagnostic Services Web",
+         "featureDtosList":null
+      },
+      {
+         "id":1101,
+         "prentId":1099,
+         "displayName":"Diagnostic Services Oracle",
+         "featureDtosList":[
+            {
+               "featureId":1022907,
+               "featureName":"Relation List 2",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1102,
+         "prentId":1099,
+         "displayName":"Diagnostic Billing ",
+         "featureDtosList":[
+            {
+               "featureId":1022904,
+               "featureName":"RelationList 3",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1100,
+         "prentId":1099,
+         "displayName":"Configuration Web",
+         "featureDtosList":null
+      },
+      {
+         "id":1107,
+         "prentId":1100,
+         "displayName":"Referral Doctor Commission",
+         "featureDtosList":[
+            {
+               "featureId":1022909,
+               "featureName":"Referral Commission",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022910,
+               "featureName":"Examwise Refferral Head",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1108,
+         "prentId":null,
+         "displayName":"Hospital Services Web",
+         "featureDtosList":null
+      },
+      {
+         "id":1109,
+         "prentId":1108,
+         "displayName":"Out Patient Department",
+         "featureDtosList":null
+      },
+      {
+         "id":1113,
+         "prentId":1109,
+         "displayName":"Billing Web",
+         "featureDtosList":null
+      },
+      {
+         "id":1114,
+         "prentId":1109,
+         "displayName":"Pathology Web",
+         "featureDtosList":null
+      },
+      {
+         "id":1110,
+         "prentId":1109,
+         "displayName":"Opd Configuration ",
+         "featureDtosList":null
+      },
+      {
+         "id":1111,
+         "prentId":1109,
+         "displayName":"Opd Service",
+         "featureDtosList":null
+      },
+      {
+         "id":1112,
+         "prentId":null,
+         "displayName":"Prescription Module",
+         "featureDtosList":null
+      },
+      {
+         "id":1116,
+         "prentId":1112,
+         "displayName":"Prescription",
+         "featureDtosList":[
+            {
+               "featureId":1022914,
+               "featureName":"Prescription",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1117,
+         "prentId":1112,
+         "displayName":"Setup",
+         "featureDtosList":[
+            {
+               "featureId":1022903,
+               "featureName":"Template List",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022905,
+               "featureName":"Disease Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022915,
+               "featureName":"Doctor Wise Prescription",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022916,
+               "featureName":"On Examination",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022917,
+               "featureName":"Physical Exam Group",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022918,
+               "featureName":"Physical Examination",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022919,
+               "featureName":"Clinical History",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022920,
+               "featureName":"Auto Complete Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022921,
+               "featureName":"Visit Note",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022922,
+               "featureName":"Short Key",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022927,
+               "featureName":"Advice Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022928,
+               "featureName":"Finalization",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022948,
+               "featureName":"Chief Complain",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022931,
+               "featureName":"Add Template",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022945,
+               "featureName":"User Preference",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022947,
+               "featureName":"History Group",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022956,
+               "featureName":"History",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022957,
+               "featureName":"Illness History",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022961,
+               "featureName":"Diagnosis Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1190000001547,
+         "prentId":null,
+         "displayName":"Test Module",
+         "featureDtosList":null
+      },
+      {
+         "id":1001,
+         "prentId":null,
+         "displayName":"Diagnostic System",
+         "featureDtosList":null
+      },
+      {
+         "id":1011,
+         "prentId":1001,
+         "displayName":"Configuration",
+         "featureDtosList":[
+            {
+               "featureId":1022980,
+               "featureName":"Discount Policy Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022981,
+               "featureName":"Doctor Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022982,
+               "featureName":"Referral Doctor Commision Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022985,
+               "featureName":"Working Share Policy Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022986,
+               "featureName":"Referral Doctor Marge",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022997,
+               "featureName":"Marketing Officer",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1023006,
+               "featureName":"Micro-Biology Value Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022963,
+               "featureName":"Exam Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022964,
+               "featureName":"Exam, Attribute, Reference Value, Analyzer, etc.",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1012,
+         "prentId":1001,
+         "displayName":"Billing",
+         "featureDtosList":[
+            {
+               "featureId":1022983,
+               "featureName":"Order Entry",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022984,
+               "featureName":"Order Update",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022988,
+               "featureName":"Refund Only",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1023000,
+               "featureName":"Order Entry (CMH)",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1023010,
+               "featureName":"Due Collection Only",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022926,
+               "featureName":"Order Entry2",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022951,
+               "featureName":"Order Entry3",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022946,
+               "featureName":"Post Order Referral Change",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022965,
+               "featureName":"Order Cancel",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022966,
+               "featureName":"Post Order Exam Add",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022967,
+               "featureName":"Post Order Exam Cancel",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022975,
+               "featureName":"Money Receipt",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022977,
+               "featureName":"Post Order Discount",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1014,
+         "prentId":1001,
+         "displayName":"Pathology",
+         "featureDtosList":[
+            {
+               "featureId":1022987,
+               "featureName":"Sample Receive at LAB",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022992,
+               "featureName":"Sample Collection",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022993,
+               "featureName":"Step Cancellation",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1023001,
+               "featureName":"Laboratory Result Entry",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1015,
+         "prentId":1001,
+         "displayName":"Radiology & Imaging",
+         "featureDtosList":[
+            {
+               "featureId":1022994,
+               "featureName":"Image Capture",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022995,
+               "featureName":"Non Lab Result Entry",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022996,
+               "featureName":"Non-Lab Step Cancellation",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022952,
+               "featureName":"Radiology Appointment",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022933,
+               "featureName":"Image QC",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022934,
+               "featureName":"Film Consumption",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022962,
+               "featureName":"Non Lab Result Entry (Monowara)",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022969,
+               "featureName":"Non Lab Result Entry (New)",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1013,
+         "prentId":1001,
+         "displayName":"Diagnostic Services",
+         "featureDtosList":[
+            {
+               "featureId":1022991,
+               "featureName":"Report Delivery",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022999,
+               "featureName":"Imaging Report Process",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1002,
+         "prentId":null,
+         "displayName":"Hospital Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1022,
+         "prentId":1002,
+         "displayName":"HS Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1021,
+         "prentId":1002,
+         "displayName":"Out Patient Department",
+         "featureDtosList":null
+      },
+      {
+         "id":1049,
+         "prentId":1021,
+         "displayName":"OPD Configuration",
+         "featureDtosList":[
+            {
+               "featureId":1022911,
+               "featureName":"Person Category Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022912,
+               "featureName":"Personal Prefix Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022913,
+               "featureName":"Rank Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022935,
+               "featureName":"Service Category Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022936,
+               "featureName":"Unit Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022937,
+               "featureName":"Corps Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022938,
+               "featureName":"Eligibility Status Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022939,
+               "featureName":"Room Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022940,
+               "featureName":"Infrastructure Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022971,
+               "featureName":"OPD Configuaration",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022976,
+               "featureName":"Doctor Schedule ",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1048,
+         "prentId":1021,
+         "displayName":"OPD Services",
+         "featureDtosList":[
+            {
+               "featureId":1022979,
+               "featureName":"Registration",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022941,
+               "featureName":"Patient List",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022942,
+               "featureName":"Receptions Rooms",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022943,
+               "featureName":"Doctors Rooms",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022953,
+               "featureName":"OPD Queues",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022960,
+               "featureName":"OPD Queues",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022972,
+               "featureName":"OPD Appointment",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1098,
+         "prentId":1021,
+         "displayName":"OPD Consultation",
+         "featureDtosList":null
+      },
+      {
+         "id":1016,
+         "prentId":1002,
+         "displayName":"In Patient Department",
+         "featureDtosList":null
+      },
+      {
+         "id":1050,
+         "prentId":1016,
+         "displayName":"IPD Billing",
+         "featureDtosList":null
+      },
+      {
+         "id":1052,
+         "prentId":1016,
+         "displayName":"IPD Services",
+         "featureDtosList":[
+            {
+               "featureId":1022989,
+               "featureName":"Nurse Station",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022990,
+               "featureName":"OT Note",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1023011,
+               "featureName":"Discharge Certificate",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1051,
+         "prentId":1016,
+         "displayName":"IPD Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1019,
+         "prentId":1002,
+         "displayName":"Doctor's Module",
+         "featureDtosList":null
+      },
+      {
+         "id":1056,
+         "prentId":1019,
+         "displayName":"EMR Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1055,
+         "prentId":1019,
+         "displayName":"EMR Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1017,
+         "prentId":1002,
+         "displayName":"Operation Theatre",
+         "featureDtosList":null
+      },
+      {
+         "id":1057,
+         "prentId":1017,
+         "displayName":"OT Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1058,
+         "prentId":1017,
+         "displayName":"OT Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1020,
+         "prentId":1002,
+         "displayName":"Emergency",
+         "featureDtosList":null
+      },
+      {
+         "id":1054,
+         "prentId":1020,
+         "displayName":"Emergency Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1053,
+         "prentId":1020,
+         "displayName":"Emergency Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1018,
+         "prentId":1002,
+         "displayName":"Blood Bank",
+         "featureDtosList":null
+      },
+      {
+         "id":1059,
+         "prentId":1018,
+         "displayName":"BB Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1060,
+         "prentId":1018,
+         "displayName":"BB Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1003,
+         "prentId":null,
+         "displayName":"HR & Payroll",
+         "featureDtosList":null
+      },
+      {
+         "id":1023,
+         "prentId":1003,
+         "displayName":"Schedule & Rostering",
+         "featureDtosList":null
+      },
+      {
+         "id":1024,
+         "prentId":1003,
+         "displayName":"Personnel Directory",
+         "featureDtosList":null
+      },
+      {
+         "id":1096,
+         "prentId":1003,
+         "displayName":"HR Configaration",
+         "featureDtosList":null
+      },
+      {
+         "id":1004,
+         "prentId":null,
+         "displayName":"Pharmacy",
+         "featureDtosList":null
+      },
+      {
+         "id":1115,
+         "prentId":1004,
+         "displayName":"Medical Store",
+         "featureDtosList":[
+            {
+               "featureId":1022944,
+               "featureName":"Pharmacy Store",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022949,
+               "featureName":"Reception",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022950,
+               "featureName":"Authorization",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022955,
+               "featureName":"Local Purchase",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1076,
+         "prentId":1004,
+         "displayName":"Pharmacy & General Store",
+         "featureDtosList":null
+      },
+      {
+         "id":1027,
+         "prentId":1004,
+         "displayName":"Pharmacy Billing",
+         "featureDtosList":[
+            {
+               "featureId":1022925,
+               "featureName":"Pharmacy Payment Bill",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1025,
+         "prentId":1004,
+         "displayName":"Pharmacy Purchase",
+         "featureDtosList":[
+            {
+               "featureId":1023003,
+               "featureName":"Goods Receive Note(G.R.N)",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1023004,
+               "featureName":"Goods Receive Note(G.R.N)Without PO",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1023005,
+               "featureName":"Purchase Order Approved ",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1023007,
+               "featureName":"Purchase Requsition",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1023008,
+               "featureName":"Purchase Order Generate",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1026,
+         "prentId":1004,
+         "displayName":"Pharmacy Configuration",
+         "featureDtosList":[
+            {
+               "featureId":1023002,
+               "featureName":"Store Setup(S)",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1023009,
+               "featureName":"Manufacturer/Suplier Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022954,
+               "featureName":"Dose Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022968,
+               "featureName":"Medicine Setup (Price)",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022973,
+               "featureName":"Pharmacy Setup(S)",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022974,
+               "featureName":"Generic Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022978,
+               "featureName":"Medicine Code Barcode Print",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1028,
+         "prentId":1004,
+         "displayName":"Pharmacy Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1005,
+         "prentId":null,
+         "displayName":"Material Management",
+         "featureDtosList":null
+      },
+      {
+         "id":1030,
+         "prentId":1005,
+         "displayName":"Material Purchase",
+         "featureDtosList":null
+      },
+      {
+         "id":1031,
+         "prentId":1005,
+         "displayName":"Material Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1032,
+         "prentId":1005,
+         "displayName":"Material Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1006,
+         "prentId":null,
+         "displayName":"Cafeteria",
+         "featureDtosList":null
+      },
+      {
+         "id":1034,
+         "prentId":1006,
+         "displayName":"DK Billing",
+         "featureDtosList":null
+      },
+      {
+         "id":1033,
+         "prentId":1006,
+         "displayName":"DK Configuraton",
+         "featureDtosList":null
+      },
+      {
+         "id":1093,
+         "prentId":1006,
+         "displayName":"DK Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1094,
+         "prentId":1006,
+         "displayName":"DK Purchase",
+         "featureDtosList":null
+      },
+      {
+         "id":1007,
+         "prentId":null,
+         "displayName":"Accounts",
+         "featureDtosList":null
+      },
+      {
+         "id":1035,
+         "prentId":1007,
+         "displayName":"AC Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1036,
+         "prentId":1007,
+         "displayName":"AC Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1008,
+         "prentId":null,
+         "displayName":"MIS",
+         "featureDtosList":null
+      },
+      {
+         "id":1081,
+         "prentId":1008,
+         "displayName":"WEB Report",
+         "featureDtosList":null
+      },
+      {
+         "id":1037,
+         "prentId":1008,
+         "displayName":"Audit Log",
+         "featureDtosList":null
+      },
+      {
+         "id":1039,
+         "prentId":1008,
+         "displayName":"Revenue Report",
+         "featureDtosList":null
+      },
+      {
+         "id":1038,
+         "prentId":1008,
+         "displayName":"Transaction Report",
+         "featureDtosList":null
+      },
+      {
+         "id":1009,
+         "prentId":null,
+         "displayName":"Other Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1045,
+         "prentId":1009,
+         "displayName":"Digital Document Archive",
+         "featureDtosList":null
+      },
+      {
+         "id":1068,
+         "prentId":1045,
+         "displayName":"Document Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1067,
+         "prentId":1045,
+         "displayName":"Document Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1044,
+         "prentId":1009,
+         "displayName":"Corporate Client",
+         "featureDtosList":null
+      },
+      {
+         "id":1063,
+         "prentId":1044,
+         "displayName":"AAB Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":699,
+         "prentId":1063,
+         "displayName":"AAA Test",
+         "featureDtosList":null
+      },
+      {
+         "id":1064,
+         "prentId":1044,
+         "displayName":"CC Services",
+         "featureDtosList":null
+      },
+      {
+         "id":701,
+         "prentId":1064,
+         "displayName":"ACC Confi",
+         "featureDtosList":null
+      },
+      {
+         "id":1043,
+         "prentId":1009,
+         "displayName":"Health Checkup",
+         "featureDtosList":null
+      },
+      {
+         "id":1062,
+         "prentId":1043,
+         "displayName":"Health Checkup Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1061,
+         "prentId":1043,
+         "displayName":"Health Checkup Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1042,
+         "prentId":1009,
+         "displayName":"Vaccination",
+         "featureDtosList":null
+      },
+      {
+         "id":1066,
+         "prentId":1042,
+         "displayName":"Vaccination Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1065,
+         "prentId":1042,
+         "displayName":"Vaccination Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1078,
+         "prentId":1009,
+         "displayName":"Share Holder Accounts",
+         "featureDtosList":null
+      },
+      {
+         "id":1079,
+         "prentId":1078,
+         "displayName":"Share Holder Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1080,
+         "prentId":1078,
+         "displayName":"Share Holder Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1040,
+         "prentId":1009,
+         "displayName":"Daycare Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1071,
+         "prentId":1040,
+         "displayName":"Daycare Configaration",
+         "featureDtosList":null
+      },
+      {
+         "id":1072,
+         "prentId":1040,
+         "displayName":"Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1041,
+         "prentId":1009,
+         "displayName":"Package",
+         "featureDtosList":null
+      },
+      {
+         "id":1070,
+         "prentId":1041,
+         "displayName":"Package Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1069,
+         "prentId":1041,
+         "displayName":"Package Services",
+         "featureDtosList":null
+      },
+      {
+         "id":1090,
+         "prentId":1009,
+         "displayName":"Ambulane Service",
+         "featureDtosList":null
+      },
+      {
+         "id":1091,
+         "prentId":1090,
+         "displayName":"Ambulane Service Configuration",
+         "featureDtosList":null
+      },
+      {
+         "id":1092,
+         "prentId":1090,
+         "displayName":"Ambulane Bill Service",
+         "featureDtosList":null
+      },
+      {
+         "id":1010,
+         "prentId":null,
+         "displayName":"Settings & Security",
+         "featureDtosList":null
+      },
+      {
+         "id":1046,
+         "prentId":1010,
+         "displayName":"Security",
+         "featureDtosList":[
+            {
+               "featureId":1022998,
+               "featureName":"User List(S)",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022923,
+               "featureName":"Department Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022924,
+               "featureName":"Employee Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022929,
+               "featureName":"Module Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022930,
+               "featureName":"Feature Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022958,
+               "featureName":"Organization Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022959,
+               "featureName":"Company Setup",
+               "isGranted":false,
+               "updatedStatus":false
+            },
+            {
+               "featureId":1022970,
+               "featureName":"User Roles(S)",
+               "isGranted":false,
+               "updatedStatus":false
+            }
+         ]
+      },
+      {
+         "id":1047,
+         "prentId":1010,
+         "displayName":"Settings",
+         "featureDtosList":null
+      }
+   ],
+   "obj":null
+}

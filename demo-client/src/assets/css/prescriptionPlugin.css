@@ -1,0 +1,118 @@
+/* prescription custom plugin css */
+.referredSearch typeahead-container.dropdown.open.dropdown-menu {
+    width: 73.5%;
+}
+.referralTable{
+    width: 80% !important;
+    border: solid 1px #6a99ba;
+    float: right;
+    background: #efefef;
+    
+}
+
+.referralTable tr:nth-child(2n+2){
+	background:#fbf8f8;
+}
+.referralTable tr span i{
+    color: #c40707;
+}
+.btnDuration{padding: 0px 6px !important;}
+.topSpace{top: -4px;}
+.saveTemplate {
+    padding: 4px 8px;
+    /* width: 100%; */
+    top: -3px;
+    position: relative;
+    float: right;
+}
+
+.color_one {
+    border: 1px solid #89ad62  !important;
+}
+.block_all {
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: 4px;
+	-webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+	background: transparent;
+}
+.block_all h4 {
+    width: 100%;
+    float: left;
+    margin: 0px;
+    background: #c5ddaa;
+    line-height: 27px;
+    font-size: 21px;
+    margin-bottom: 6px;border-radius: 4px 4px 0 0;
+}
+.block_all h4 span {
+    width: 34px;
+    height: 28px;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    line-height: 28px;
+    background: #89ad62;
+    margin-right: 12px;
+    border-right: solid 1px #94c065;
+    box-shadow: 1px 0px 0px #4e7a1a;
+}
+.pannelBody{ padding: 7px;}
+.inpuControl{
+    border: 1px solid #6bb5d2;
+}
+.searchicon {
+    border: 1px solid #6bb5d2;
+    border-left: 0px;
+    height: 26px;
+    border-radius: 0px 4px 4px 0px !important;
+}
+.tdFont td{ font-size: 14px;}
+
+.color_two{
+    border: 1px solid #75b6bb !important;
+    
+}
+.color_two h4 {
+    background: #75b6bb;
+    position: relative; color: #fff;
+}
+.color_two h4 span {
+    background: #63a2a7 !important;
+    border-right: solid 1px #548e93 !important;
+    box-shadow: 1px 0px 0px #8ccfd4 !important;
+}
+.add_title{ padding: 0px 6px;}
+.all_content_wrapper .form-control {
+    border: 1px solid #6bb5d2;
+}
+input.check_input1 {
+    height: 20px;
+}
+
+.main_table_content thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    background: #e1f2f5;
+    white-space: nowrap;
+    color: #017080;
+    font-size: 15px;
+    font-weight: bold;
+}
+.minheightTemplate{ height: 36vh;}
+.medicationSearch typeahead-container.dropdown.open.dropdown-menu {
+    width: 296%;
+}
+.check_input input.chekMargin {
+    height: 17px !important;
+    top: 3px;
+}
+.icon_marginp {
+    top: 4px;
+    position: relative; color: #ad3712;
+}
+.btnFevList{ width:20px !important;
+    text-align: center;
+    padding: 0px !important;}
+    .medicationTitle table thead th{ font-size: 13px !important;}

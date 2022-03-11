@@ -1,0 +1,14 @@
+footer#footerContent {
+    width: 100%;
+    float: left;
+    /* border: solid; */color: #1a73e8;
+    bottom: 0px;
+    background: rgba(0,0,0, 0.3);
+    position: absolute; padding: 6px;
+}
+footer#footerContent p{ margin-bottom: 0px;
+    color: #e5e7e8;
+    font-size: 16px;
+    padding-top: 1px;
+    padding-bottom: 1px;}
+     

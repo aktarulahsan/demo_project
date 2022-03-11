@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="col-md-12 padding-left-right">
+      <div class="all_content_wrapper">
+        <div class="allInner">
+          <div class="pannelArea">
+            <div class="pannelHeading">
+              <h5 class="subHeading subHeadingDocSetup">Invoice
+                <button title="Delete " data-toggle="modal" data-target="#delete" (click)="delete()"
+                  class="btn btn-danger mr-1 addButtonCustom"> <i class="fas fa-trash-alt"
+                    aria-hidden="true"></i>&nbsp;Delete</button>
+                    <button title="view " data-toggle="modal" data-target="#view" (click)="invoiceView()"
+                    class="btn btn-danger mr-1 addButtonCustom"> <i class="fas fa-view"
+                      aria-hidden="true"></i>&nbsp;view</button>
+  
+                <button type="button" class="btn btn-success mr-1 addButtonCustom" (click)="update()"
+                  title="Edit Employee"><i class="fas fa-edit"></i>Edit</button>
+                <button type="button"  class="btn btn-primary mr-1 addButtonCustom" (click)="add()"
+                 title="Add Employee"><i
+                    class="fas fa-plus-circle"></i>Add</button>
+                    
+  
+              </h5>
+            </div>
+  
+            <div class="employeeTable selectedTable">
+                <div class="table-responsive">
+                  <table
+                    datatable
+                    [dtOptions]="dtOptions"
+                    [dtTrigger]="dtTrigger"
+                    class="row-border hover"
+                  ></table>
+                </div>
+              </div>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

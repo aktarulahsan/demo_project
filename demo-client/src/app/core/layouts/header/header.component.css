@@ -1,0 +1,303 @@
+
+.settingTop{
+    width: 100%;
+    float: left;
+    background: #5e72e4;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 13%;
+    font-size: 19px; position: relative;
+}
+
+.settingTop:before {
+    display: block;
+    content: '';
+    width: 20px;
+    border-left: solid 10px transparent;
+    border-top: solid 10px transparent;
+    border-bottom: solid 10px #5e72e4;
+    border-right: solid 10px transparent;
+    position: absolute;
+    right: 4px;
+    top: -20px;
+}
+header.headerTop {
+    position: relative;
+    /* background: #008caf; */
+    background:#003367  repeat-x;
+    min-height: 60px;
+    border-bottom: solid 2px #fff; box-shadow:0px 0px 3px #999;border-top: solid 2px #e4e4e4;
+}
+.headerTop:after {
+         content: "";
+    display: block;
+    width: 797px;
+    position: absolute;
+    top: -20px;
+    right: -300px;
+    height: 81px;
+    z-index: 1;
+    background-color: hsla(0,0%,100%,.06);
+    border-radius: 213% 0 0 0%;
+}
+.settingHeader{
+    background: transparent;
+    border: 0px;margin-top: 6px;
+    color: #fff;
+}
+.dropDownPosition{
+    left: -306px !important;
+    border: solid 1px #5e72e4;
+    box-shadow: 0px 0px 3px #000;
+    width: 320px;
+}
+.dropDownModule .dropdown-toggle::after {
+    display: none;
+}
+
+.userInfoAll h5{color: #fff;}
+.userInfoAll p{color: #86f39f;}
+.userInfoAll label {
+    font-size: 13px;
+    color: #fff;
+    margin-top: -3px;
+    margin-left: 2%;
+}
+.show>.btn-info.dropdown-toggle.settingHeader:focus{box-shadow: none;}
+.show>.btn-info.dropdown-toggle.settingHeader{background: transparent; color: #999;}
+.settingHeader:focus{box-shadow: none;}
+.settingHeader:not(:disabled):not(.disabled):active:focus{box-shadow: none;}
+.settingHeader:not(:disabled):not(.disabled):active{    color: #999;
+    background-color: transparent;
+    border-color: transparent;}
+    .headerTop .dropdown-menu.show {
+        margin-top: 60px;margin-left: 34px;
+    }
+    .logOut{
+        background-color: #f0f3f7;
+        color: #dc3545 !important;border-top: solid 1px #d0d3d6;
+        top: 7px;
+        position: relative;
+        height: 47px;
+        padding-top: 12px;
+    }
+
+   .logOut span {
+        width: 100px;
+    margin: auto;
+    display: table;
+    border: solid 1px;
+    padding: 1px;
+    border-radius: 31px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 15px;
+    }
+
+    .notifiactionArea{ margin-top: 16px;width: 100%; height: auto; float: left;    flex-direction: row;}
+    .notifiactionArea ul{ flex-direction: row;}
+    .notifiactionArea li{ float: left;}
+    .notifiactionArea li button {
+        padding: 0px 4px;
+        background: transparent;
+        border: 0px;cursor: pointer;
+    }
+    .notifiactionArea .dropdown-toggle::after {
+        border: 0px;
+    }
+    .notifiactionArea li i{color: #fff;
+        font-size: 17px;}
+        .notification{
+            top: -10px;
+            position: relative;
+            right: 5px;
+        }
+
+        .notify {
+            position: relative;
+            top: -36px;
+            right: -7px; }
+
+            .notifiactionArea li button:focus {
+                outline:0;
+                outline: 0;
+            }
+            .notifiactionArea .dropdown{top: 2px; }
+            .dropdown-menu{padding-top:0px;}
+           .notifiactionArea p {
+            background-color: #5e72e4;
+            padding: 6px;padding-top: 9px;
+            padding-bottom: 9px;
+            color: #FFF; margin-bottom:0px;
+            }
+            .notifiactionArea p i{color:#fff;margin-right: 9px;}
+            .notifiactionArea p:before {
+                display: block;
+                content: '';
+                /* border: solid 12px; */
+                position: absolute;
+                border-left: solid 10px transparent;
+                border-right: solid 10px transparent;
+                border-top: solid 10px transparent;
+                border-bottom: solid 10px #5e72e4;
+                top: -20px;
+                left: 2px;
+            }
+            .notifiactionArea .dropdown-item{
+                border-bottom: solid 1px #e6e6e6; padding-left:10px;    padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .notifiactionArea .dropdown-item:last-child{border-bottom: 0px;}
+            .notifiactionArea .dropdown-item span {
+                color: #fff;
+                background-color: #007bff;
+                border-color: #007bff;
+                border-radius: 100%;
+                width: 34px;
+                height: 34px;
+                text-align: center;padding: 8px;    padding-top: 4px;
+            }
+            .notifiactionArea .dropdown-item span i{color:#fff; font-size: 14px;}
+            .checkAll a{ color: #736c6c;}
+            .dropDownModule button {
+                font-size: 22px !important;
+                color: #feffff !important;
+                text-shadow: 0px 1px 1px #000;
+                top: 1px;
+            }
+            .dropDownModule  .dropDownPosition{
+                left: -173px !important;
+                width: 300px;
+                top: -6px !important;
+        border: solid 1px #5e72e4;
+        box-shadow: 0px 0px 3px #000;
+            }
+            .moduleuL{
+                width: 98%;
+                border: solid 1px #9dccef;
+                /* clear: ; */
+                float: left;
+                margin-left: 1%;
+                margin-top: 2%;
+                top: 2px;
+                position: relative;
+                padding-bottom: 4px;
+                border-radius: 5px;
+            }
+
+            .moduleuL li {
+                width: 140px;font-family: Verdana;
+                float: left;font-size: 14px;
+                margin-left: 1%;height: 36px; border-radius: 6px;
+                margin-top: 4px; text-align: center; color: #fff;line-height: 38px;
+            }
+            .moduleuL li:nth-child(1){
+                background: #18b9d4;
+            }
+            .moduleuL li:nth-child(2){
+                background: #3da5f4;
+            }
+            .moduleuL li:nth-child(3){
+                background: #f1536e;
+
+            }
+            .moduleuL li:nth-child(4){
+                background: #22ae7a;
+
+            }
+            .moduleuL li:nth-child(5){
+                background: #5d61bf;
+
+            }
+            .moduleuL li:nth-child(6){
+                background: #1b1d39;
+
+            }
+            /* user title css */
+.patientAvatarIcon span {
+    float: left;
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;margin-top: 7px;
+}
+.patientAvatarIcon span img{ width: 44px;
+    height: 44px; border-radius: 100%;border: solid 3px #fff;
+    box-shadow: 0px 0px 2px #fff;}
+    .userInfoAll h6 {
+        display: inline;
+        color: #dafbb4;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+.userInfoAll{ width: 80%; float: left;}
+.patientAvatarIcon h5{
+    float: left;
+    font-size: 14.5px;font-family: Verdana !important;
+    margin-top: 18px;
+    margin-left: 6px;    width: 100%;
+    margin-bottom: 0px;
+}
+
+.patientAvatarIcon p {
+    width: 100%;
+    float: left;
+    margin: 0px;
+    color: #9bea9e;padding-left: 8px;
+}
+.allmoduleList .dropDownPosition {
+    margin-left: -86px !important;
+    margin-top: 72px !important;
+}
+
+.patientAvatarIcon2 h5{color: #000;}
+.patientAvatarIcon2 h6{color: #5da20d;}
+.patientAvatarIcon2 p{color: #076f0b;}
+.patientAvatarIcon2 label{color: #000;}
+
+.patientAvatarIcon2 span{
+    
+    width: 76px;
+    height: 76px;
+    margin-top:4px;
+}
+.patientAvatarIcon2 span img{
+    width: 76px;
+    height: 76px;
+}
+.patientAvatarIcon2 .userInfoAll {
+    width: 70%;
+}
+.userProfilebtn {
+    padding: 3px 42px;
+    border: solid 1px #047e9c;
+    margin: 9px;
+    margin-bottom: 20px;
+}
+.notificationDropdownHeader .dropdown-menu {
+    margin-top: 48px !important;
+    margin-left: -2px !important;
+}
+.patientAvatarIcon2 h5{
+    margin-top: 20px;
+    
+}
+
+.opdBg{
+    background: #3da5f4 !important;
+}
+
+.pharmacyBg{
+    background: #f1536e  !important;
+}
+
+.diagnosticBg{
+    background: #22ae7a  !important;
+}
+.dropDownPositionModule .dropdown-menu.show {
+    margin-left: -262px !important;
+    width: 300px;
+}
+

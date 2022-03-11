@@ -1,0 +1,612 @@
+/*==================================================responsive css=========================================*/
+
+
+
+@media (min-width:1700px) and (max-width:4000px) {
+	.containerCustom{ max-width: 90%;}
+
+	.allInnerDasboard .allBlock p{
+		padding-top: 10px;
+		height: 6.5vh;
+	} 
+	 
+	.allInnerDasboard .allIconDashboard {
+		top: 10px;
+		position: relative;
+	}
+
+	input#prescriptionIsPatientOut{
+		top: 6px !important;
+    left: 23px !important;
+	}
+	.yearMonthLi{
+		width: 35% !important;
+}
+/* .ribbon-edge-topleft{
+	left: -116px !important;
+}
+.ribbon-edge-bottomright{
+	right: 89px !important;
+} */
+
+/* opd appointment  */
+.checkWidth1 {
+	width: 44%;
+}
+.checkWidth4 {
+	width: 30%;
+}
+.checkWidth3 {
+	width: 22%;
+}
+.paddHolder .checkWidth2 {
+	left: -30px;
+}
+
+}
+
+@media (min-width:991px) and (max-width:2000px) {
+	/* .table-responsive {
+		overflow-y: -webkit-paged-x;
+	   
+	} */
+	}
+
+	@media (min-width:200px) and (max-width:1307px){
+	.widthDepartment .ng-select{
+		width: 67% !important;
+	}
+	.widthDepartment2 .ng-select{
+		width: 56% !important;
+	}
+}
+	@media (min-width:200px) and (max-width:1299px) {
+.nowrapeAll th{ white-space: nowrap;}
+.nowrapeAll td{ white-space: nowrap;}
+	}
+
+	@media (min-width:200px) and (max-width:1307px){
+		.widthDepartment .ng-select{
+			width: 60% !important;
+		}
+		.widthDepartment2 .ng-select{
+			width: 50% !important;
+		}
+	}
+
+@media (min-width:200px) and (max-width:1100px) {
+.page-wrapper.toggled .page-content {
+    padding-left: 54px;
+}
+.page-wrapper.toggled .sidebar-wrapper {
+    left: -176px;
+}
+.sidebar-wrapper {
+    left: 0px;
+ 
+}
+.sidebar-wrapper .sidebar-menu {
+    left: 0px;
+}
+.page-wrapper .page-content {
+    padding-left: 230px;
+}
+.page-wrapper .sidebar-wrapper .sidebar-menu {
+    padding-top:16px;
+}
+.page-wrapper.toggled .sidebar-wrapper .sidebar-menu {
+    padding-top: 16px;
+}
+
+.page-wrapper.chiller-theme.toggled #close-sidebar {
+	width: 39px;left:8px;
+    position: relative;
+}
+div.modalWidth70 {
+    max-width: 90% !important;
+
+}
+#show-sidebar {
+	left: 185px;
+}
+.sidebar-wrapper .dropdown-btn:first-child i {
+    margin-right: 3px;width: 14px;left: -2px;position: relative;
+}
+.page-wrapper.toggled .dropdown-btn:first-child i {
+    left: 182px;position: relative;
+}
+.page-wrapper .dropdown-container  {
+    padding-left: 5px;
+}
+.dropdown-container button.dropdown-btn {
+    padding-left: 8px;
+}
+.dropdown-container a {
+    padding: 2px 7px;
+}
+}
+
+@media (min-width:991px) and (max-width:1100px) {
+	.allBlock p{
+		font-size: 14px !important;
+	}
+	
+}
+
+@media (min-width:200px) and (max-width:1091px) {
+.vitalDate {
+	margin-left: 0%;
+	min-width: 60%;
+	flex: 60%;
+}
+.subHeadingDocSetup {
+    width: auto !important;
+    padding-right: 12px;
+}
+}
+
+@media (min-width:200px) and (max-width:1090px) {
+	.border_hn .form-row {
+		margin-right: 6px;
+		margin-left: -2px;
+	}
+	.mac-window {
+		max-width: 98% !important;
+		min-width: 98%;
+	}
+	.quickDiv{ max-width: 100%; flex: 100%;}
+	.quickDiv2 {
+		max-width: 155px !important;min-width: 155px; padding-left: 12px !important; padding-right: 2px !important;
+	}
+	.quickDiv3 {
+
+		max-width: 78% !important;
+		flex: 78%;padding-left: 12px !important;padding-right: 0px !important;
+	
+	}
+	#progressbar {
+		width: 60%;
+	}
+	.fieldsetBgEmargency .form-control{
+		border-radius: 4px !important;
+		border: 1px solid #9bb390 !important;
+		background: #fff !important;
+	}
+	#loginArea{
+		position: inherit !important;
+		margin-top: 134px;
+		display: inherit !important;max-width: 560px;
+	}
+	footer#footerContent{
+		position: relative !important;background: rgb(34, 88, 71) !important;
+	}
+	#logInMainArea {
+		width: 100%;
+		float: left;
+		height: 670px;
+	}
+	.btnNurseTop .btn{margin-bottom: 10px !important;}
+	/* .pr-1{
+		padding-right: 18px !important;
+	}
+	.pr-0{
+		padding-right: 15px !important;
+	}
+	.pl-0{
+		padding-left: 15px !important;
+	}
+	 */
+	.pannelHeading {
+		background-image: -webkit-gradient( linear, left top, right top, from(rgb(55, 110, 164)), to(rgb(37, 86, 134)));
+	}
+	
+	}
+
+
+ @media (min-width:200px) and (max-width:991px) {
+.color_grid_three .custom-control-inline {
+	margin-right: 0px;
+}
+.loginWrapper{ position: inherit !important; float: left;}
+
+.allmoduleList button{ padding: 3px;}
+.settingHeader{ margin-top: 10px;}
+.subHeader{ margin-bottom: 60px !important;}
+.dropDownPositionModule .dropdown-menu.show{
+    margin-left: -271px !important;
+}
+.quickDiv3 {
+	max-width: 74% !important;
+	flex: 74%;
+} 
+.footerMultiStep2{height: 40px;}
+.footerMultiStep2 button{ float: left;right: 0px !important;} 
+.headerTop:after{display: none !important;}
+.notifiactionArea{display: none;}
+
+}
+@media (min-width:200px) and (max-width:965px) {
+	.tabAreaVertical .nav-tabs {
+		width: 98% !important;
+		height: auto !important;flex-flow: wrap !important;
+	}
+	.tabAreaVertical li.nav-item a.active:after{display: none !important;}
+	.tabAreaVertical .nav-link.active {
+		border: solid 1px #006960 !important;
+		border-bottom: solid 1px #005f56 !important;
+		border-right: solid 1px #006960 !important;
+		border-radius: 20px 20px 20px 20px !important;
+		background: #027d72;
+		color: #fff !important;
+	}
+	.tabAreaVertical .tab-content {
+		width: 100% !important;
+		float: none;
+		margin: auto;
+		left: -3px;
+		position: relative;
+	}
+	.tabAreaVertical li .nav-link {
+		padding: 1px 10px;
+		margin-bottom: 2px;
+	}
+}
+
+@media (min-width:200px) and (max-width:940px) {
+.admissionLabel{
+	max-width: 50% !important; flex:50% !important;
+}
+.col4FullWidth{max-width: 50%; flex:50%; }
+.col4FullWidth2{max-width:100%; flex:100%; }
+.pr-02{ padding-right: 15px !important;}
+.inputWidth{width:150px;}
+.ipdBtn {
+    padding: 1px 6px !important;
+}
+}
+
+@media (min-width:200px) and (max-width:852px){
+	.widthDepartment .ng-select{
+		width:54% !important;
+	}
+	.widthDepartment2 .ng-select{
+		width: 45% !important;
+	}
+}
+
+@media (min-width:200px) and (max-width:810px) {
+	.btn_all_top button {
+		padding: 2px 6px;
+	}
+	.doc_avater a img {
+		width: 132px !important;
+	}
+	div.modalWidth70 {
+		max-width: 98% !important;
+	
+	}
+	.admissionLabel {
+		max-width: 100% !important;
+		flex: 100% !important;
+	}
+	.col4FullWidth {
+		max-width: 100%;
+		flex: 100%;
+	}
+	}
+	
+	@media (min-width:200px) and (max-width:790px) {
+		.consulta_btn {
+			position: inherit;
+		}
+		}
+@media (min-width:200px) and (max-width:767px) {
+.nave_toogle button.navbar-toggler {
+	top: -28px;
+	right: 84px;
+	position: relative;
+	padding: 1px 8px;
+	float: right;
+	border: solid 1px #0e8aa7;
+	background: #1991ad;
+}
+.doc_avater {
+	top: 17px;
+	position: relative;
+}
+.log_out {
+	height: 36px;
+	top: -62px;
+	right: 11px;
+	width: 36px;
+	border-radius: 100%;
+}
+.navbar-nav {
+	background: #1991ad;
+	background-color: rgb(25, 145, 173);
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav_custom .navbar-nav a {
+	padding: 4px 4px;
+	border-bottom: solid 1px #0484a2;
+	box-shadow: 0px 1px 0px #149fbf;
+}
+.custom_dropdown .dropdown-menu {
+	background: #1499b9;
+	width: 95%;
+	margin: auto;
+	text-align: center;
+}
+.mac-window {
+	overflow: scroll;
+}
+.header {
+	display: block !important;
+}
+button.navMenu {
+	display: none;
+}
+
+div#cke_709_contents {
+	height: auto !important;
+}
+.cke_contents {
+	height: auto !important;
+}
+.cke_inner {
+	height: auto !important;
+}
+.notifiactionArea ul{
+	width: 100px;
+	margin: auto;left: 13px;
+	position: relative;
+	margin-bottom: 17px;
+}
+.patientAvatarIcon {
+	text-align: center;
+	display: table;
+	margin: auto;
+
+}
+.userInfoAll{
+	width: 100% !important;
+
+}
+.patientAvatarIcon h5{ margin-top: 5px !important;}
+.patientAvatarIcon span{ float: inherit !important;}
+.settingPosition{ text-align: center !important;padding-left: 9%;
+	margin-bottom: 16px;
+	margin-top: 7px;}
+	.allInner{width:100% !important;}
+	.allInner.allInnerDasboard {
+		padding: 3% !important;
+	}
+	.settingTop{
+		line-height: 36px !important;
+		padding-left: 4% !important;
+	}
+	.btn-group.dropDownMain.dropDownModule.allmoduleList.dropDownPositionModule.show {
+		top: 1px;
+	}
+	header.headerTop{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.vitalDate {
+		margin-left: 0%;
+		margin-bottom: 10px;
+		margin-top: 13px !important;
+	}
+	.subHeading {
+		color: #bce48a;
+		border-right: 0px;
+		box-shadow: none;
+	}
+	.widthDepartment .ng-select{
+		width:56% !important;
+	}
+	.widthDepartmentT2 .ng-select{
+		width:64% !important;
+	}
+	.widthDepartment2 .ng-select{
+		width: 45% !important;
+	}
+	.widthDepartment1 .input-group-text{
+		width: auto !important;
+	}
+	.widthDepartmentT2{padding-left: 3%;}
+	.widthDepartment2 .ng-select {
+		width: 54% !important;
+	
+	}
+	.pannelAreaReception{width: 97%; margin: auto; float: inherit;}
+	.receptioTop{
+		width: 95% !important;
+	}
+	.pr-repction{ padding-right: 14px !important;}
+	.pl-repction{ padding-left: 14px !important;}
+	.pr-repction2{ padding-right: 30px !important;}
+	.pl-repction2{ padding-left: 30px !important;}
+	.searchId2{ background: transparent !important;}
+	.marginT-reception{margin-top: 0px !important;}
+	.bgL{background: transparent !important;}
+	.modalWidth80 {
+		max-width: 100% !important;
+	}
+}
+
+@media (min-width:200px) and (max-width:766px) {
+.logo_header {
+	top: -16px;
+	position: relative;
+}
+.btn_all_top {
+	margin-top: 2%;
+}
+.btn_all_top button {
+	margin-bottom: 15px !important;
+	margin-top: 12px !important;
+}
+.btn_all_top button {
+	width: 220px;
+	margin: auto;
+	display: block;
+}
+.color_grid_three .custom-radio {
+	display: table;
+	margin: auto;
+}
+.btn_all_top button {
+	margin-bottom: 8px;
+}
+.logo_hospital {
+	width: 26% !important;
+}
+.border_area2 {
+	width: 500px;
+}
+.padding_left {
+	padding-left: 0px;
+	padding-right: 15px;
+}
+#error_message {
+	width: 300px;
+}
+#loginform{padding-left: 8% !important; padding-right: 8% !important;}
+.quickDiv3 {
+    max-width: 70% !important;
+    flex: 70%;
+}
+}
+
+@media (min-width:200px) and (max-width:700px) {
+	.login_form {
+		width: 100%;
+	}
+	.nave_toogle ul.navbar-nav.mr-auto {
+		padding-left: 6px;
+		padding-right: 6px;
+		background: #0195b7;
+		text-align: center;
+		margin-bottom: 3px;
+	}
+	.quickDiv3 {
+		max-width:60% !important;
+		flex: 60%;
+	}
+	.notifiactionArea {
+		display: none;
+	}
+	
+	}
+
+	@media (min-width:200px) and (max-width:630px) {
+	.widthDepartmentT2 .ng-select{
+		width:66% !important;
+	}
+	}
+@media (min-width:200px) and (max-width:600px) {
+.tab_custom {
+	height: auto;
+}
+ul.tab_custom {
+	position: relative;
+	border: solid 1px #b5d4e6;
+	border-bottom-color: rgb(181, 212, 230);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.nav-tabs .nav-link.active {
+	color: #fff !important;
+	border-color: #dee2e6 #dee2e6 #fff;
+	border: 0px !important;
+	background: #1fa3c0 !important;
+	height: 36px;
+}
+.tab_custom li {
+	width: 100% !important;
+	border-bottom: solid 1px #dedede;
+}
+
+header#header h2{
+	font-size: 28px !important;
+}
+header#header span{
+	margin-left: 0px !important;width: 58px !important;
+
+}
+.allInner.allInnerDasboard {
+	padding:4% !important;
+}
+.allInner.allInnerDasboard {
+		padding: 3% !important;
+	}
+	.headerTop .dropdown-menu.show{
+		margin-left: 146px !important;
+	}
+	.settingTop::before {
+		position: relative !important;
+		right: -15px !important;
+		margin: auto;
+	}
+	.dropdown-menu.dropDownPosition.dropDownPositionModule.show {
+		margin-left: 20px !important;
+	}
+	.settingTop{
+		line-height: 2px !important;
+	
+	}
+	.dropDownPositionModule .dropdown-menu.show{
+		left: 110px !important;
+		
+	}
+	.quickDiv2 {
+		max-width: 100% !important;
+		padding-left: 34px !important; text-align: left !important;
+		
+	}
+	.quickDiv3 {
+		max-width: 93% !important;
+		flex: 93%;
+		padding-left: 30px !important;
+	}
+	#progressbar {
+		width: 300px;
+		float: left;
+		margin-left: 0px !important;
+		left: -44px;
+	}
+	.topRegistered{
+		margin-left: 17px;
+	}
+}
+
+@media (min-width:200px) and (max-width:450px) {
+#loginform{padding-left: 4% !important; padding-right: 4% !important;}
+.topTilte{
+	font-size: 20px !important;
+
+}
+#loginform h4 {
+	font-size: 23px  !important;
+}
+.allInner.allInnerDasboard {
+		padding: 3% !important;
+	}
+	
+	
+}
+@media (min-width:200px) and (max-width:384px) {
+	header#header span{
+	width: 48px !important;
+	
+	}
+	header#header h2{
+		font-size: 22px !important;margin-top: 7px !important;
+	}
+	.topTilte {
+    font-size: 18px !important;
+}
+}
